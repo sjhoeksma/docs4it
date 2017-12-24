@@ -1,0 +1,43 @@
+.flex-grid article {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0; }
+
+.flex-grid article.shown {
+  -ms-filter: none;
+  -webkit-filter: none;
+  filter: none;
+  opacity: 1; }
+
+.flex-grid article.animate {
+  -webkit-animation: moveUp .65s;
+  animation: moveUp .65s;
+  -ms-filter: none;
+  -webkit-filter: none;
+  filter: none;
+  opacity: 1; }
+
+@-webkit-keyframes moveUp {
+  from {
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px); }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -ms-filter: none;
+    -webkit-filter: none;
+    filter: none;
+    opacity: 1; } }
+@keyframes moveUp {
+  from {
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px); }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -ms-filter: none;
+    -webkit-filter: none;
+    filter: none;
+    opacity: 1; } }
+.icons-home {
+  text-align: center; }

@@ -1,0 +1,82 @@
+.author {
+  background:$lightGray;
+  display: table;
+  width: 100%;
+  padding: 2.5rem 0;
+  margin: 2.5rem 0; }
+
+@media only screen and (min-width: $cutoff) {
+  .author {
+    padding: 3.125rem 0; } }
+.author .details {
+  margin: auto;
+  max-width: 50rem;
+  padding: 0 1.25rem; }
+
+@media only screen and (max-width: $cutoff) {
+  .author .details {
+    text-align: center; } }
+.author svg {
+  width: 25px;
+  height: 25px;
+  margin-right: .625rem; }
+
+.author a {
+  fill: #a9a9a9;
+  text-decoration: none;
+  border: none;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+
+.author a:hover {
+  fill: $themeColor; }
+
+.author img {
+  width: 11.25rem;
+  border-radius: 50%;
+  display: block;
+  margin: auto; }
+
+@media only screen and (min-width: $cutoff) {
+  .author img {
+    float: left;
+    margin-right: 3.125rem; } }
+.author .def {
+  color: #808080;
+  font-size: 1.125rem;
+  font-family: $fontfamily;
+  font-weight: 300;
+  font-style: normal;
+  margin: .625rem; }
+
+@media only screen and (min-width: $cutoff) {
+  .author .def {
+    margin: 0; } }
+.author .name {
+  margin: 0; }
+
+.author .name a {
+  font-family: $fontfamily;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.875rem; }
+
+.author .name a:hover {
+  color: #333; }
+
+@media only screen and (min-width: $cutoff) {
+  .author .name a {
+    font-size: 2.813rem; } }
+.author .desc {
+  font-family: $fontfamily;
+  font-weight: 300;
+  font-style: normal;
+  margin: .625rem;
+  font-size: 1rem;
+  line-height: 1.563rem; }
+
+@media only screen and (min-width: $cutoff) {
+  .author .desc {
+    font-size: 1.125rem; } }

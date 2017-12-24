@@ -1,20 +1,48 @@
 # Setup
-name:         Cloud@Work
-tagline:      How can we serve
-timezone:     Europe/Berlin
-baseurl:      ""
+name:         CloudFlix
+creator:      Sierk Hoeksma
+creator_url:  https://sjhoeksma.github.com 
+creator_img:  https://avatars3.githubusercontent.com/u/5503837?s=460&v=4
+title:        CloudFlix
+description:  How to do Cloud
+email: 	      sjhoeksma@gmail.com
 locale:       "en"
-repository:   http://github.com/sjhoeksma/sjhoeksma.github.io
+timezone:     Europe/Amsterdam
+baseurl:      ""
+url: 					"https://sjhoeksma.github.io" # the base hostname & protocol for your site
+repository:   "http://github.com/sjhoeksma/sjhoeksma.github.io" 
+# google_analytics: "UA-XXXXXXXX-X" # Add you google_analytics id if needed
 
-#Others
+# Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
 
 # Gems
 plugins:
-- jekyll-paginate
-- jekyll-feed
-- jekyll-redirect-from
 - jemoji
-- jekyll-sitemap
-- jekyll-seo-tag
-- jekyll-avatar
+
+# User Settings
+username: CloudFlix
+user_description: Cloud Flix.
+disqus_username: cf_username
+
+# Social Media
+# Remove the item if you don't need it
+#github_username: github_username
+#facebook_username: facebook_username
+#twitter_username: twitter_username
+#instagram_username: instagram_username
+#linkedin_username: linkedin_username
+#medium_username: medium_username
+
