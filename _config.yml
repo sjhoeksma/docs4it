@@ -1,5 +1,5 @@
 # Setup
-name:         CloudFlix
+name:         CloudDocs
 creator:      Sierk Hoeksma
 creator_url:  https://sjhoeksma.github.com 
 creator_img:  https://avatars3.githubusercontent.com/u/5503837?s=460&v=4
@@ -33,8 +33,8 @@ plugins:
 - jemoji
 
 # User Settings
-username: CloudFlix
-user_description: Cloud Flix.
+username: CloudDocs
+user_description: Cloud Docs.
 disqus_username: cf_username
 
 # Social Media

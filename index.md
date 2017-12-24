@@ -3,7 +3,11 @@ layout: main
 ---
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div id="grid" class="row flex-grid">
+   <div class="">
+		<div class="navigation-main float-left">
+			 {% include navigation.html %}
+		</div>	
+    <div id="grid" class="row flex-grid float-right">
     {% for post in site.posts %}
         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <span class="category">
@@ -43,5 +47,6 @@ layout: main
             </div>
         </article>
     {% endfor %}
-    </div>
+    </div>	
+	</div>	 
 </main>
