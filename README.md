@@ -1,3 +1,9 @@
+# Idea
+
+The idea is to create as portal where you can share information.
+
+style based on : https://jekyller.github.io/online-cv/ and https://www.rossener.com/jekflix-template/
+
 # Getting Started
 
 ## Prerequisites

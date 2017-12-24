@@ -6,6 +6,11 @@
  *    user zoom.
  */
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 html {
   font-family: sans-serif; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -31,7 +36,6 @@ body {
  */
 
 article,
-aside,
 details,
 figcaption,
 figure,
@@ -43,10 +47,6 @@ nav,
 section,
 summary {
   display: block;
-}
-
-section {
-	float: left;
 }
 
 
@@ -92,6 +92,10 @@ template {
 
 a {
   background-color: transparent;
+}
+
+.center-text {
+	text-align: center;
 }
 
 /**
@@ -181,9 +185,6 @@ sub {
 /* Embedded content
    ========================================================================== */
 
-/**
- * Remove border when inside `a` element in IE 8/9/10.
- */
 
 img {
   border: 0;
@@ -440,23 +441,6 @@ body {
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
 }
 
-footer {
-	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  float: left;
-  width: 100%;
-  clear: both;
-	background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  font-size: 16px;
-  padding: 4px;
-	line-height: 1;
-	color: #fff;
-  margin-top: 15px;
-}
-
-p {
-  margin-top: 0;
-}
-
 a {
   color: #2879d0;
 }
@@ -464,9 +448,12 @@ a:hover {
   color: #2268b2;
 }
 
+p {
+  margin-top: 0;
+}
+
 header {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding : 8px 25px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
@@ -475,7 +462,7 @@ header {
 header h1 {
   width: 540px;
   margin-top: 0;
-  margin-bottom: 0.05em;
+  margin-bottom: -0.1em;
   font-size: 72px;
   font-weight: normal;
   line-height: 1;
@@ -483,53 +470,17 @@ header h1 {
   letter-spacing: -1px;
 }
 
-header h2 {
-  width: 540px;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 26px;
-  font-weight: normal;
-  line-height: 1;
-  color: #9ddcff;
-  letter-spacing: 0;
-}
-
 .inner {
-  position: relative;
-  width: 940px;
-  margin: 0 auto;
+	margin-left : 15px;
 }
 
 #content-wrapper {
-  padding-top: 20px;
+  padding: 0px 25px;
   border-top: solid 1px #fff;
-}
-
-#main-content {
-  float: left;
-  width: 690px;
 }
 
 #main-content img {
   max-width: 100%;
-}
-
-aside#sidebar {
-  float: right;
-  width: 200px;
-  padding-left: 20px;
-  font-size: 12px;
-  line-height: 1.3;
-  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
-}
-
-aside#sidebar p.repo-owner,
-aside#sidebar p.repo-owner a {
-  font-weight: bold;
-}
-
-#downloads {
-  margin-bottom: 40px;
 }
 
 a.button {
@@ -546,25 +497,11 @@ a.button small {
   display: block;
   font-size: 11px;
 }
-header a.button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
-}
+
 header a, header a:hover { 
 	color: inherit; 
 	text-decoration: none;
 } 
-
-aside a.button {
-  display: block;
-  width: 138px;
-  padding-left: 64px;
-  margin-bottom: 20px;
-  font-size: 21px;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
-}
 
 code, pre {
   margin-bottom: 30px;
@@ -651,6 +588,7 @@ form {
 }
 
 #main-content h2 {
+	margin-top: 2px;
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 22px;
@@ -783,9 +721,6 @@ dl dd {
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  .inner {
-    width: 740px;
-  }
   header h1, header h2 {
     width: 340px;
   }
@@ -794,9 +729,6 @@ dl dd {
   }
   header h2 {
     font-size: 30px;
-  }
-  #main-content {
-    width: 490px;
   }
   #main-content h1:before,
   #main-content h2:before,
@@ -812,11 +744,8 @@ dl dd {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-  .inner {
-    width: 93%;
-  }
   header {
-    padding: 20px 0;
+    padding: 10px 25px;
   }
   header .inner {
     position: relative;
@@ -851,23 +780,7 @@ dl dd {
     display: inline;
     font-size: 13px;
   }
-  #main-content,
-  aside#sidebar {
-    float: none;
-    width: 100% ! important;
-  }
-
-  aside#sidebar {
-    min-height: 0;
-    padding: 20px 0;
-    margin-top: 20px;
-    background-image: none;
-    border-top: solid 1px #ddd;
-
-  }
-  aside#sidebar a.button {
-    display: none;
-  }
+ 
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
@@ -884,4 +797,4 @@ dl dd {
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) { }
+@media only screen and (max-width: 479px) {}

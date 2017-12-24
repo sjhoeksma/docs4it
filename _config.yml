@@ -4,8 +4,7 @@ tagline:      How can we serve
 timezone:     Europe/Berlin
 baseurl:      ""
 locale:       "en"
-repository: sjhoeksma/sjhoeksma.github.io
-# http://github.com/sjhoeksma/sjhoeksma.github.io
+repository:   http://github.com/sjhoeksma/sjhoeksma.github.io
 
 #Others
 markdown: kramdown
