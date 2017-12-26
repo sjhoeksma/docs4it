@@ -4,9 +4,9 @@ layout: main
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
    <div class="">
-		<div class="navigation-main float-left">
-			 {% include navigation.html %}
-		</div>	
+    {% if site.usenavigation %}
+		  {% include navigation.html %}
+    {% endif %}
     <div id="grid" class="row flex-grid float-right">
     {% for post in site.posts %}
         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
@@ -24,9 +24,22 @@ layout: main
                 {% if post.image %}
                     <div class="cover">
                         {% include new-post-tag.html date=post.date %}
+                        {% if post.imagemaps != blank %}
+                          <img id="img-id-1" src="/img/placeholder.png" data-url="{{ post.image }}" class="preload" usemap="#todo" highlight="1" >
+                          <map name="todo">
+                          {% for s in post.imagemaps %}
+                              <area shape="{{ s.shape | default: 'rect' }}" coords="{{ s.coord }}" 
+                                    href="{{ site.baseurl }}{{ s.url }}" 
+                                    alt="{{ s.name }}" title="{{ s.name }}"
+                                    {{ s.option }}
+                              />
+                          {% endfor %}
+                          </map>
+                        {% else %}
                         <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
                             <img src="/img/placeholder.png" data-url="{{ post.image }}" class="preload">
                         </a>
+                        {% endif %}
                     </div>
                 {% endif %}
                 <div class="box-info">

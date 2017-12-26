@@ -3,6 +3,9 @@ layout: post
 title: "Por que o Sketch vale 3 tanques de gasolina?"
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 category: 'webdev'
+imagemaps:
+ - {name: g0 ,abbrev: g0, coord: '0,0,200,200'}
+ - {name: g1 ,abbrev: g1, coord: '200,200,300,300', option: "fill='0'" }
 tags:
 - design
 - sketch

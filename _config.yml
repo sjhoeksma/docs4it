@@ -3,7 +3,7 @@ name:         CloudDocs
 creator:      Sierk Hoeksma
 creator_url:  https://sjhoeksma.github.com 
 creator_img:  https://avatars3.githubusercontent.com/u/5503837?s=460&v=4
-title:        CloudFlix
+title:        CloudDocs
 description:  How to do Cloud
 email: 	      sjhoeksma@gmail.com
 locale:       "en"
@@ -11,7 +11,13 @@ timezone:     Europe/Amsterdam
 baseurl:      ""
 url: 					"https://sjhoeksma.github.io" # the base hostname & protocol for your site
 repository:   "http://github.com/sjhoeksma/sjhoeksma.github.io" 
-# google_analytics: "UA-XXXXXXXX-X" # Add you google_analytics id if needed
+usenavigation: false
+# google_analytics: "UA-XXXXXXXX-X" # Add you google_analytics id if neede
+
+# Gems
+plugins:
+- jemoji
+# - jekyll-minifier
 
 # Build settings
 markdown: kramdown
@@ -28,10 +34,21 @@ links:
   - title: Contact
     url: /contact/
 
-# Gems
-plugins:
-- jemoji
+# Compress the stylesheets		
+sass:
+  style: compressed		
+ 
+ 
+# Collection Directory
+collections:
+ - cloudpatterns
+ - cloudservices
+ - codesnippets
 
+  
+ 
+
+  
 # User Settings
 username: CloudDocs
 user_description: Cloud Docs.
