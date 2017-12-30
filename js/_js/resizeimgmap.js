@@ -34,8 +34,8 @@
 			return 'rgba('+hex_to_decimal(color.substr(0,2))+','+hex_to_decimal(color.substr(2,2))+','+hex_to_decimal(color.substr(4,2))+','+opacity+')';
 		};
 		create_canvas_for = function(img) {
-			var c = $('<canvas style="width:'+$(img).width()+'px;height:'+$(img).height()+'px;"></canvas>').get(0);
-			c.getContext("2d").clearRect(0, 0, $(img).width(), $(img).height());
+			var c = $('<canvas style="width:'+$(img).data('scaleW')+'px;height:'+$(img).data('scaleH')+'px;"></canvas>').get(0);
+			c.getContext("2d").clearRect(0, 0, $(img).data('scaleW'), $(img).data('scaleH'));
 			return c;
 		};
 		var draw_shape = function(context, shape, coords, x_shift, y_shift) {
@@ -145,7 +145,7 @@
 		};
 	} else {   // ie executes this code
 		create_canvas_for = function(img) {
-			return $('<var style="zoom:1;overflow:hidden;display:block;width:'+img.width+'px;height:'+img.height+'px;"></var>').get(0);
+			return $('<var style="zoom:1;overflow:hidden;display:block;width:'+img.data('scaleW')+'px;height:'+img.data('scaleH')+'px;"></var>').get(0);
 		};
 		add_shape_to = function(canvas, shape, coords, options, name) {
 			var fill, stroke, opacity, e;
@@ -406,8 +406,7 @@
             image    = document.querySelector('img[usemap="#'+mapName+'"]'),
             map      = $('map[name="' + mapName + '"]'),
             imgScaleW  = image.width  / image.naturalWidth,
-            imgScaleH = image.height / image.naturalHeight,
-            highlight = false;
+            imgScaleH = image.height / image.naturalHeight;
 
         if (imgScaleW !== img.data('scaleW') || imgScaleH !== img.data('scaleH')) {
           
@@ -415,7 +414,6 @@
                 var area      = $(v),
                     coords    = area.data('coords').split(','),
                     newCoords = [];
-                highlight |= area.attr('highlight');
                 $.each(coords, function(j, w) {
                     newCoords.push(w * (j%2==1 ? imgScaleH : imgScaleW));
                 });
@@ -424,7 +422,7 @@
             img.data('scaleW', imgScaleW);
             img.data('scaleH', imgScaleH);
             console.log("fff",img.attr('highlightoff'))
-            if (img.attr('highlight')!=false) img.maphilight();
+            img.maphilight();
         }
     }
   
