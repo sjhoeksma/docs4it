@@ -21,8 +21,6 @@ plugins:
 # - jekyll-minifier
 
 # Mermaid let's you draw graphs: https://github.com/knsv/mermaid
-mermaid:
-  src: '/js/mermaid/mermaid.min.js'
 
 # Build settings
 markdown: kramdown

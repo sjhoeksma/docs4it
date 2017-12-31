@@ -52,7 +52,7 @@ Cloud Links
 # Governance
 <a class="anchor" id="Portfolio"></a>
 ## Portfolio Management
-{% mermaid %}
+<div class="mermaid">
 gantt
         dateFormat  YYYY-MM-DD
         title Adding GANTT diagram functionality to mermaid
@@ -68,7 +68,7 @@ gantt
         Future task in critical line        :crit, 5d
         Create tests for renderer           :2d
         Add to mermaid                      :1d
-{% endmermaid %}
+</div>
 
 <a class="anchor" id="Project"></a>
 ## Project Management
@@ -85,16 +85,15 @@ gantt
 
 
 
-
-{% mermaid %}
+<div class="mermaid">
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-{% endmermaid %}
+</div>
 
-{% mermaid %}
+<div class="mermaid">
 sequenceDiagram
     participant Alice
     participant Bob
@@ -106,9 +105,9 @@ sequenceDiagram
     John-->Alice: Great!
     John->Bob: How about you?
     Bob-->John: Jolly good!
-{% endmermaid %}
+</div>
 
-{% mermaid %}
+<div class="mermaid">
 gantt
         dateFormat  YYYY-MM-DD
         title Adding GANTT diagram functionality to mermaid
@@ -124,5 +123,5 @@ gantt
         Future task in critical line        :crit, 5d
         Create tests for renderer           :2d
         Add to mermaid                      :1d
-{% endmermaid %}
+</div>
 
