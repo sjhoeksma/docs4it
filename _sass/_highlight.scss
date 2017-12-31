@@ -13,7 +13,7 @@ pre {
     margin: 3.125rem 0; } }
 pre code {
   width: auto;
-  max-width: 50rem;
+  max-width: $maxWidth;
   float: none;
   display: block;
   margin-right: auto;

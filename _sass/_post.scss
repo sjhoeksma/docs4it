@@ -7,24 +7,31 @@
   .post {
     top: 3.125rem; } }
 .post-content {
-  padding: 2.5rem 0; }
+  padding: 1.5rem 0; }
 
-.post-content img {
-  max-width: 100%;
-  margin: 0 auto;
-  display: block;
+
+ .post-content .maphilighted,.post-content img {
+  width: 100%;
+  max-width: $maxWidth;
+  background-repeat: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
   padding: 10px 0; }
 
 .post-content img.emoji {
   display: inline;
   padding: 0; }
 
+/*
 .post-content img.post-cover {
   margin-bottom: 1.25rem; }
 
 @media only screen and (min-width: $cutoff) {
   .post-content img.post-cover {
     margin-bottom: 1.813rem; } }
+
 .post-content img + em {
   display: block;
   color: #a9a9a9;
@@ -32,10 +39,11 @@
   font-family: $fontfamily;
   font-weight: 300;
   font-style: normal; }
+*/
 
 .post-content p, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content ul, .post-content ol, .post-content iframe {
   width: auto;
-  max-width: 50rem;
+  max-width: $maxWidth;
   float: none;
   display: block;
   margin-right: auto;
@@ -61,6 +69,7 @@
     font-size: 1.25rem;
     line-height: 2.5rem;
     margin: 0 auto 1.813rem; } }
+
 .post-content h1.post-title {
   margin: 0 auto;
   line-height: 2.5rem; }
@@ -69,6 +78,7 @@
   .post-content h1.post-title {
     line-height: 3.75rem;
     margin: 0 auto .625rem; } }
+
 .post-content p.subtitle {
   color: #a9a9a9;
   font-size: 1.125rem;
@@ -79,6 +89,7 @@
   .post-content p.subtitle {
     font-size: 1.25rem;
     line-height: 2.5rem; } }
+
 .post-content p.post-info {
   font-family: $fontfamily;
   font-weight: 300;
@@ -91,6 +102,7 @@
 @media only screen and (min-width: $cutoff) {
   .post-content p.post-info {
     font-size: 1rem; } }
+
 .post-content p.post-info span, .post-content p.post-info time {
   vertical-align: middle; }
 
@@ -161,9 +173,10 @@
 @media only screen and (max-width: $cutoff) {
   .post-content ul.post-list {
     padding: 0 1.25rem; } }
+
 .post-content blockquote {
   width: auto;
-  max-width: 45.625rem;
+  max-width: $maxWidth - 4.375rem;
   float: none;
   display: block;
   margin-right: auto;
@@ -191,9 +204,10 @@
     font-size: 1.25rem;
     line-height: 1.5;
     padding: 0; } }
+
 .post-content hr {
   width: auto;
-  max-width: 47.5rem;
+  max-width: $maxWidth - 2.5rem;
   float: none;
   display: block;
   margin-right: auto;
@@ -214,6 +228,7 @@
 @media only screen and (max-width: $cutoff) {
   .post-content > table {
     display: none; } }
+
 .post-content > table th, .post-content > table td {
   border: .125rem solid #ccc;
   padding: .313rem; }
@@ -275,7 +290,7 @@
 
 .post-content .tags {
   width: auto;
-  max-width: 50rem;
+  max-width: $maxWidth;
   float: none;
   display: block;
   margin-right: auto;
@@ -300,6 +315,7 @@
   .post-content .tags {
     font-size: 1.25rem;
     letter-spacing: .05rem; } }
+
 .post-content .tags a {
   font-size: .875rem;
   color: $primaryDark;
@@ -325,7 +341,7 @@
   font-size: 2.375rem;
   margin-top: 3.75rem;
   width: auto;
-  max-width: 50rem;
+  max-width: $maxWidth;
   float: none;
   display: block;
   margin-right: auto;
@@ -343,6 +359,7 @@
     font-size: 1.875rem;
     margin-top: 1.25rem;
     padding: 0 1.25rem; } }
+
 .post-content .post-list {
   list-style: none;
   margin: 1.563rem auto; }
@@ -350,6 +367,7 @@
 @media only screen and (max-width: $cutoff) {
   .post-content .post-list {
     padding: 0 1.25rem; } }
+
 .post-content .post-list a {
   display: block;
   border-bottom: 1px solid #dadada;

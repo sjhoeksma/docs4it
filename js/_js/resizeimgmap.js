@@ -34,8 +34,8 @@
 			return 'rgba('+hex_to_decimal(color.substr(0,2))+','+hex_to_decimal(color.substr(2,2))+','+hex_to_decimal(color.substr(4,2))+','+opacity+')';
 		};
 		create_canvas_for = function(img) {
-			var c = $('<canvas style="width:'+$(img).data('scaleW')+'px;height:'+$(img).data('scaleH')+'px;"></canvas>').get(0);
-			c.getContext("2d").clearRect(0, 0, $(img).data('scaleW'), $(img).data('scaleH'));
+			var c = $('<canvas style="width:'+$(img).width+'px;height:'+$(img).height+'px;"></canvas>').get(0);
+			c.getContext("2d").clearRect(0, 0, $(img).width, $(img).height);
 			return c;
 		};
 		var draw_shape = function(context, shape, coords, x_shift, y_shift) {
@@ -254,11 +254,12 @@
 				display:'block',
 				backgroundImage:'url("'+this.src+'")',
 				backgroundSize:'contain',
+        backgroundRepeat:'no-repeat',
 				position:'relative',
-				padding:0,
-				width:this.width,
-				height:this.height
+				padding:0 
 				});
+      //We set height of image to div, so width is calcuated
+      wrap.height(this.height);
 			if(options.wrapClass) {
 				if(options.wrapClass === true) {
 					wrap.addClass($(this).attr('class'));
@@ -269,11 +270,13 @@
 			img.before(wrap).css('opacity', 0).css(canvas_style).remove();
 			if(has_VML) { img.css('filter', 'Alpha(opacity=0)'); }
 			wrap.append(img);
-
+      
 			canvas = create_canvas_for(this);
 			$(canvas).css(canvas_style);
-			canvas.height = this.height;
-			canvas.width = this.width;
+      //Now we have the real height and width of image resize the canvas and wrapper
+      wrap.height(img.height());
+			canvas.height = img.height();//this.height;
+			canvas.width = img.width();//this.width;
 
 			$(map).bind('alwaysOn.maphilight', function() {
 				// Check for areas with alwaysOn set. These are added to a *second* canvas,
@@ -388,14 +391,15 @@
            scaleMap($(v));
         });
     }).trigger('resize.scaleMaps');
-  
+
+  /*
     //We need to trigger the function also after the load is completed
     imgs.each(function(i,v){
        $(v).one('load', function() {
-         scaleMap($(v));
+        // scaleMap($(v));
        }); 
     });
-
+*/
     // find image scale by comparing offset width with width attribute
     // if the scale has changed or not set,
     // scale its map's areas by this factor
@@ -407,7 +411,7 @@
             map      = $('map[name="' + mapName + '"]'),
             imgScaleW  = image.width  / image.naturalWidth,
             imgScaleH = image.height / image.naturalHeight;
-
+      
         if (imgScaleW !== img.data('scaleW') || imgScaleH !== img.data('scaleH')) {
           
             map.find('area').each(function(i, v) {
@@ -421,7 +425,6 @@
             });
             img.data('scaleW', imgScaleW);
             img.data('scaleH', imgScaleH);
-            console.log("fff",img.attr('highlightoff'))
             img.maphilight();
         }
     }

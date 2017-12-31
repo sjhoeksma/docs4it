@@ -17,7 +17,12 @@ usenavigation: false
 # Gems
 plugins:
 - jemoji
+- jekyll-mermaid
 # - jekyll-minifier
+
+# Mermaid let's you draw graphs: https://github.com/knsv/mermaid
+mermaid:
+  src: '/js/mermaid/mermaid.min.js'
 
 # Build settings
 markdown: kramdown
@@ -41,13 +46,16 @@ sass:
  
 # Collection Directory
 collections:
- - cloudpatterns
- - cloudservices
- - codesnippets
-
-  
+  - topics
  
-
+collections:
+  topics:
+    output: true
+    permalink: /:collection/:name
+  posts:
+    output: true
+    permalink: /:collection/:name
+  
   
 # User Settings
 username: CloudDocs

@@ -10,6 +10,8 @@ html, body {
   -webkit-transition: top .5s;
   transition: top .5s; }
 
+
+
 @media only screen and (min-width: $cutoff) {
   .bar-header {
     padding: .938rem 0; } }
@@ -80,3 +82,10 @@ body.main-page .bar-header {
   -webkit-filter: none;
   filter: none;
   opacity: 1; }
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -2rem;
+    visibility: hidden;
+}

@@ -10,7 +10,7 @@
     padding: 3.125rem 0; } }
 .author .details {
   margin: auto;
-  max-width: 50rem;
+  max-width: $maxWidth;
   padding: 0 1.25rem; }
 
 @media only screen and (max-width: $cutoff) {
