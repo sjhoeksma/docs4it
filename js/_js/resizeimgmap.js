@@ -394,14 +394,13 @@
         });
     }).trigger('resize.scaleMaps');
 
-  /*
     //We need to trigger the function also after the load is completed
     imgs.each(function(i,v){
        $(v).one('load', function() {
-        // scaleMap($(v));
+         scaleMap($(v));
        }); 
     });
-*/
+
     // find image scale by comparing offset width with width attribute
     // if the scale has changed or not set,
     // scale its map's areas by this factor
