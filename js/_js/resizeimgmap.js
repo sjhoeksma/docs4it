@@ -274,9 +274,11 @@
 			canvas = create_canvas_for(this);
 			$(canvas).css(canvas_style);
       //Now we have the real height and width of image resize the canvas and wrapper
-      wrap.height(img.height());
-			canvas.height = img.height();//this.height;
-			canvas.width = img.width();//this.width;
+      var imgH = img.height() ? img.height() : this.height,
+          imgW = img.width() ? img.width() : this.width;
+      wrap.height(imgH);
+			canvas.height = imgH;//this.height;
+			canvas.width = imgW;//this.width;
 
 			$(map).bind('alwaysOn.maphilight', function() {
 				// Check for areas with alwaysOn set. These are added to a *second* canvas,
