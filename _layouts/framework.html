@@ -4,21 +4,17 @@
     <body class="has-push-menu">
         {% include minutes-to-read.html %}
         {% include svg-icons.html %}
-        {% include header.html %}
+        {% include header.html sidemenu=site.usesidemenu %}
+      
         <section class="post">
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
-                <p itemprop="post-info" class="post-info">
-                    {% if page.date %}
-                        <svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
-                        <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">
-                            {% include date.html date=page.date %}
-                        </time>
-                    {% endif %}
+                <span class="post-info float-right time">
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>{{ minutesText }}</span>
-                </p>
-                <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+                    {{ minutesText }}</span>
+                <h1 class="post-title" itemprop="name">{{ page.title }}
+                    
+              </h1>
               <p itemprop="description" class="subtitle">{{ page.description }}
                 {% if page.image %}
                   <img src="{{ page.image }}" class="post-cover" 
@@ -33,14 +29,20 @@
                               />
                           {% endfor %}
                           </map>
+                        <span class="post-info float-right">*Clickable</span>
                    {% else %}
                     >
                    {% endif %}
                 {% endif %}
                 </p> 
+                
                 {{ content }}
             </article>
+          
+           {% include paging.html %}
 
+           
+           {% if site.showProgressBar and totalMinutes >= site.showProgressBar %}
             <div class="progress-bar" data-minutes="{{ totalMinutes }}">
                 <span class="time-completed"></span>
                 <span class="time-remaining"></span>
@@ -49,6 +51,7 @@
                     <span class="remaining" style="width:100%;"></span>
                 </div>
             </div>
+            {% endif %}
             {% include footer.html %}
         </section>
     </body>

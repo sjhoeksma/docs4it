@@ -1,5 +1,5 @@
 # Setup
-name:         CloudDocs
+name:         Cloud Docs
 creator:      Sierk Hoeksma
 creator_url:  https://sjhoeksma.github.com 
 creator_img:  https://avatars3.githubusercontent.com/u/5503837?s=460&v=4
@@ -11,16 +11,15 @@ timezone:     Europe/Amsterdam
 baseurl:      ""
 url: 					"https://sjhoeksma.github.io" # the base hostname & protocol for your site
 repository:   "http://github.com/sjhoeksma/sjhoeksma.github.io" 
-usenavigation: false
+usenavigation: false #Should we use inline menu at index
+usesidemenu: true  #When put to true site menu is shown in posts and header removed
+showProgressBar: 1 #Time in minutes when progressbar shoud be shown
 # google_analytics: "UA-XXXXXXXX-X" # Add you google_analytics id if neede
 
 # Gems
 plugins:
 - jemoji
-- jekyll-mermaid
 # - jekyll-minifier
-
-# Mermaid let's you draw graphs: https://github.com/knsv/mermaid
 
 # Build settings
 markdown: kramdown
@@ -45,12 +44,16 @@ sass:
 # Collection Directory
 collections:
   - topics
+  - framework
  
 collections:
   topics:
     output: true
     permalink: /:collection/:name
   posts:
+    output: true
+    permalink: /:collection/:name
+  framework:
     output: true
     permalink: /:collection/:name
   

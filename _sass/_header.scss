@@ -10,7 +10,11 @@ html, body {
   -webkit-transition: top .5s;
   transition: top .5s; }
 
-
+@media only print {
+  .bar-header {
+    display: none;
+  }
+}
 
 @media only screen and (min-width: $cutoff) {
   .bar-header {

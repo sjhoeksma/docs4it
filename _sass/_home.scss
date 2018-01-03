@@ -6,6 +6,13 @@ main {
   -moz-osx-font-smoothing: grayscale;
   padding-top: 5rem; }
 
+@media only print {
+  main {
+    padding-top:0;
+  }
+}
+
+
 @media only screen and (min-width: $cutoff) {
   main {
     padding-top: 6.25rem; } }

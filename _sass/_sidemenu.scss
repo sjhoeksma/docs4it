@@ -1,0 +1,96 @@
+body.sidemenu {
+  overflow-x: hidden;
+  position: relative;
+  left: 4rem; 
+  margin-right: 4rem;
+  -webkit-transition: none;
+  transition: none;
+}
+
+body.sidemenu .post {
+ top: -1rem;
+}
+
+body.sidemenu .bar-header, body.sidemenu .section-nav  {
+  display: none;
+}
+
+body.sidemenu .search-wrapper {
+  left: 0rem;
+}
+
+.sidemenu span.time{
+  margin-top: 3px;
+  margin-right: 10px; 
+}
+
+sidemenu .fa {
+  cursor: pointer;
+  margin: 0 0 0 0;
+  color: white;  
+  font-weight: 300;
+  font-size: 1.25rem;
+  font-style: normal;
+}
+
+sidemenu .bottom {
+position: absolute;
+right: 0;
+bottom: 20px;
+top: auto;
+left: 0;
+}
+
+
+sidemenu {
+  position: fixed;
+  width: 4rem;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  padding: .625rem 0 0;
+  background-color: $primaryDark;
+  color: white;
+
+}
+
+sidemenu h2 {
+  margin: 0 0.625rem 0.4rem;
+  padding-bottom: 0.3rem;
+  font-family: $fontfamily;
+  text-align: center;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+sidemenu nav ul {
+  padding: 0;
+  margin: .313rem 0; }
+
+@media only screen and (min-width: $cutoff) {
+  sidemenu nav ul {
+    margin: .625rem 0; } }
+sidemenu nav li {
+  margin: 0;
+  list-style-type: none; }
+
+sidemenu nav li a {
+  width: 100%;
+  display: block;
+  padding: .938rem 0.625rem;
+  text-decoration: none;
+  font-family: $fontfamily;
+  font-weight: 300;
+  font-style: normal;
+  color: white; 
+  text-align: center;
+}
+
+
+sidemenu nav li a:hover {
+  color: #fff;
+  background: $themeColor; 
+}

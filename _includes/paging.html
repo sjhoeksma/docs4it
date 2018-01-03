@@ -1,0 +1,18 @@
+{% if page.next!=nil or page.previous!=nil %}
+   <div class="section-nav">
+    <div class="float-left">
+        {% if page.previous == nil %}
+          <span class="prev disabled">Back</span>
+        {% else %}
+          <a href="{{ page.previous.url }}" class="prev">Back</a>
+        {% endif %}
+    </div>
+    <div class="float-right">
+        {% if page.next == blank %}
+          <span class="next disabled">Next</span>
+        {% else %}
+          <a href="{{ page.next.url }}" class="next">Next</a>
+        {% endif %}
+    </div>
+  </div>
+{% endif %}

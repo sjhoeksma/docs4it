@@ -1,4 +1,4 @@
-            //https://github.com/kemayo/maphilight
+//https://github.com/kemayo/maphilight
 //Option are not working when passed in map
 (function(root, factory) {
     if (typeof define === 'function' && define.amd) {
@@ -145,7 +145,7 @@
 		};
 	} else {   // ie executes this code
 		create_canvas_for = function(img) {
-			return $('<var style="zoom:1;overflow:hidden;display:block;width:'+img.data('scaleW')+'px;height:'+img.data('scaleH')+'px;"></var>').get(0);
+			return $('<var style="zoom:1;overflow:hidden;display:block;width:'+img.width()+'px;height:'+img.height()+'px;"></var>').get(0);
 		};
 		add_shape_to = function(canvas, shape, coords, options, name) {
 			var fill, stroke, opacity, e;
@@ -373,7 +373,7 @@
 });
 
 (function($) {
-
+  
     // prevent errors in IE < 8
     if (!$('<area coords=1>').attr('coords')) return;
 
@@ -386,6 +386,34 @@
         area.data('coords', area.attr('coords'));
     });
 
+    var beforePrint = function() {
+        imgs.each(function(i, v) {
+          var img = $(v);
+          img.css( "opacity", 1 );
+        });
+    };
+
+    var afterPrint = function() {
+        imgs.each(function(i, v) {
+          var img = $(v);
+          img.css( "opacity", 0 );
+        });
+    };
+  
+    if (window.matchMedia) {
+        var mediaQueryList = window.matchMedia('print');
+        mediaQueryList.addListener(function(mql) {
+            if (mql.matches) {
+                beforePrint();
+            } else {
+                afterPrint();
+            }
+        });
+    } else {
+      window.onbeforeprint = beforePrint;
+      window.onafterprint = afterPrint;
+    }
+  
     // on window resize, iterate through each image
     // and scale its map areas
     $(window).bind('resize.scaleMaps', function() {
@@ -405,7 +433,7 @@
     // if the scale has changed or not set,
     // scale its map's areas by this factor
     // and store the new scale using $.data()
-    function scaleMap(img) {
+    function scaleMap(img,removeHighLight) {
       
         var mapName  = img.attr('usemap').replace('#', ''),
             image    = document.querySelector('img[usemap="#'+mapName+'"]'),
@@ -426,7 +454,8 @@
             });
             img.data('scaleW', imgScaleW);
             img.data('scaleH', imgScaleH);
-            img.maphilight();
+            console.log("High",removeHighLight)
+            if (!removeHighLight) img.maphilight();
         }
     }
   

@@ -21,9 +21,11 @@ footer::after {
   display: table;
   clear: both; }
 
-@media only screen and (min-width: $cutoff) {
+@media only print  {
   footer {
-    margin-top: 6.25rem; } }
+   display: none;}
+}
+
 footer p {
   text-decoration: none;
   color: $primaryDark;

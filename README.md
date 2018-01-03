@@ -54,6 +54,10 @@ Use it!
 $ jekyll serve
 ```
 
+# Installed addons
+
+We have added some addons which can be helpfull. With for example [mermaid](https://github.com/knsv/mermaid) you can draw images. To make it work just add `mermaid:true` to you .md header and in you text field add `<div class="mermaid">Mermiad tags here</div>`
+
 # Setup
 
 Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file.
