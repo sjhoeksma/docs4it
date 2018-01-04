@@ -12,3 +12,4 @@
 {% include_relative _js/zmain.js %}
 {% include_relative _js/resizeimgmap.js %}
 {% include_relative _js/scrolltop.js %}
+{% include_relatvie _js/safariapp.js %}
