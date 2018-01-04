@@ -454,7 +454,6 @@
             });
             img.data('scaleW', imgScaleW);
             img.data('scaleH', imgScaleH);
-            console.log("High",removeHighLight)
             if (!removeHighLight) img.maphilight();
         }
     }
