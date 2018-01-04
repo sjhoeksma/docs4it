@@ -1,3 +1,14 @@
+{% if site.algolia and site.algolia.search_only_api_key %}
+<div id="mask" class="overlay"></div>
+<div class="search-wrapper">
+   <div class="search-form">
+        <input id="search-searchbar" type="text" class="search-field" placeholder="Search">
+        <svg class="icon-remove-sign"><use xlink:href="#icon-close"></use></svg>
+        <ul id="search-hits" class="search-list"></ul>
+    </div>
+</div>
+{% include algolia.html %}
+{% else %}
 <div id="mask" class="overlay"></div>
 <div class="search-wrapper">
     <div class="search-form">
@@ -6,3 +17,4 @@
         <ul class="search-results search-list"></ul>
     </div>
 </div>
+{% endif %}

@@ -20,7 +20,7 @@ permalink: /contact/
     <form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
         <input type="hidden" name="_subject" value="New contact!" />
-        <input type="hidden" name="_next" value="{{ site.url }}/contact/message-sent/" />
+        <input type="hidden" name="_next" value="{{ site.url }}/" />
         <input type="hidden" name="_language" value="en" />
         <input type="text" name="name" placeholder="Your name" v-validate="'required'"
                :class="{ 'has-error': errors.has('name') }">
@@ -31,6 +31,7 @@ permalink: /contact/
         <textarea name="message" onkeyup="adjust_textarea(this)" placeholder="Your message" v-validate="'required'"
                   :class="{ 'has-error': errors.has('message') }"></textarea>
         <span v-if="errors.has('message')" v-cloak>${ errors.first('message') }</span>
+        <input type="text" name="_gotcha" style="display:none" />
         <button type="submit">Send</button>
       </fieldset>
     </form>

@@ -1,0 +1,50 @@
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+<base href="{{ site.baseurl }}">
+
+<script>
+var search = instantsearch({
+  appId: '{{ site.algolia.application_id }}',
+  apiKey: '{{ site.algolia.search_only_api_key }}',
+  indexName: '{{ site.algolia.index_name }}',
+  searchParameters: {
+    restrictSearchableAttributes: [
+      'title',
+      'content',
+      'tags'
+    ]
+  }
+});
+  
+var hitTemplate = function(hit) {
+  var date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('MMM D, YYYY');
+  }
+  const url = hit.url;
+  const title = hit._highlightResult.title.value;
+  const content = hit._highlightResult.content.value;
+  const category = hit.category;
+  return  `
+<li><article><a href="${url}"><span class="entry-category">${category}</span><span class="search-snippet">${title} - ${content}</span><span class="entry-date"><time datetime="${date}">${date}</time></span></a></article></li>
+  `;
+};
+  
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search into posts...'
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+search.start();
+</script>

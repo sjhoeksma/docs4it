@@ -61,15 +61,14 @@
   display: none;
   padding: 0 1.25rem;
   margin: 1.25rem 0;
-  list-style-type: none; }
+  list-style-type: none;
+  overflow: auto;
+  height: calc(100vh - 111px);
+}
 
 .active .search-form .search-list {
   display: block; }
 
-@media only screen and (max-width: $cutoff) {
-  .search-form .search-list {
-    height: 380px;
-    overflow: scroll; } }
 .search-form .search-list .entry-date {
   float: right;
   display: none;
@@ -134,3 +133,29 @@
   background-color: $primaryDark;
   content: '';
   z-index: 18; }
+
+.ais-search-box {
+  max-width: 100%!important;
+  margin-bottom: 15px;
+}
+
+.search-item {
+  color: $accentDark;
+  margin-bottom: 30px;
+}
+.search-link .ais-Highlight {
+  color: $themeColor ;
+  font-style: normal;
+}
+.search-snippet .ais-Highlight {
+  color: $themeColor;
+  font-style: normal;
+  font-weight: bold;
+}
+.search-snippet img {
+  display: none;
+}
+
+#search-searchbar.search-field{
+  padding: .613rem 2.563rem;
+}

@@ -2,11 +2,11 @@
     $.fn.simpleJekyllSearch = function(options) {
         var settings = $.extend({
             jsonFile        : '/search.json',
-            jsonFormat      : 'title,tags,categories,url,date',
-            template : '<li><article><a href="{url}"><span class="entry-category">{categories}</span> {title} <span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
+            jsonFormat      : 'title,tags,categories,content,url,date',
+            template : '<li><article><a href="{url}"><span class="entry-category">{categories}</span><span class="search-snippet"><b><i>{title}</i></b> - {content}</span><span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
             searchResults   : '.search-results',
-            limit           : '10',
-            noResults       : '<p>Puuuts! Não encontramos nada :(</p>'
+            limit           : '50',
+            noResults       : '<p>No Results :(</p>'
         }, options);
 
         var properties = settings.jsonFormat.split(',');
