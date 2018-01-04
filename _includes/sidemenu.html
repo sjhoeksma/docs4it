@@ -10,10 +10,12 @@
           Home
         </a></li>
         
+        {% if site[page.:collection][0].url != page.url %}
         <li><a href="{{ site[page.:collection][0].url }}">
           <i class="fa fa-th-large"></i>
           Main
         </a></li>
+        {% endif %}
         <li><a class="dosearch">
          <i class="fa fa-search"></i>
           Search

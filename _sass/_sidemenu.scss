@@ -11,7 +11,7 @@ body.sidemenu .post {
  top: -1rem;
 }
 
-body.sidemenu .bar-header, body.sidemenu .section-nav  {
+body.sidemenu .bar-header  {
   display: none;
 }
 
@@ -33,12 +33,31 @@ sidemenu .fa {
   font-style: normal;
 }
 
-sidemenu .bottom {
-position: absolute;
-right: 0;
-bottom: 20px;
-top: auto;
-left: 0;
+@media only screen and (min-height: 460px) {
+  sidemenu .bottom {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    top: auto;
+    left: 0;
+  }
+  
+  body.sidemenu .section-nav  {
+    display:none; 
+  }
+
+}
+
+@media only print  {
+  body.sidemenu {
+    left : 0;
+    margin-right: 0;
+  }
+  
+  sidemenu {
+    display: none;
+  }
+  
 }
 
 
