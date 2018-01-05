@@ -30,7 +30,7 @@ plugins:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+permalink: /:name/
 
 # Links to include in menu navigation
 # For external links add external: true

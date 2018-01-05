@@ -165,6 +165,7 @@ main {
   background: #fff;
   border-color: #fff; }
 
+
 .box-item .box-body .new-post:after {
   content: 'New post';
   text-transform: uppercase;
@@ -178,8 +179,14 @@ main {
   position: absolute;
   margin-top: -2.187rem; }
 
-.box-item .box-body .cover {
-  position: relative; }
+.box-body .cover, .box-body .box-info {
+  position: relative; 
+  max-width: $maxHomeWidth;
+}
+
+.box-item .category{
+  max-width: $maxHomeWidth;
+}
 
 .box-item .box-body .cover a:before {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";

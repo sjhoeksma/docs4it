@@ -1,6 +1,18 @@
 - title:  Cloud Framework
-  date:   2018-01-01 08:30:56
   category: Strategy
   image: '/assets/framework/framework.png'
-  url:  '/framework/00-00-cloud-framework'
-  introduction: The Cloud Framework organizes guidance into six areas of focus, which span the entire organization. We describe these areas of focus as Perspectives. Perspectives each encompass distinct responsibilities owned or managed by functionally related stakeholders.
+  url:  '/framework/'
+  introduction: Here you find information about cloud. We use a simple framework to explain what is required and give some guidance on how you could implement cloud within your organisation.
+  
+- title: Guiding Principles
+  category: Principles
+  image: '/assets/principles/principles.png'
+  url:  '/principles/'
+  introduction: We have defined some principles which may be handy.
+  
+- title:  News
+  date:   2018-01-01 08:30:56
+  category: News
+  image: '/assets/posts/news.jpg'
+  url:  '/posts'
+  introduction: Some interesting news items arround cloud which i have not yet integrated into the side.

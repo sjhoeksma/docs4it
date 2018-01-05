@@ -15,8 +15,7 @@
   }
 }
 
-
- .post-content .maphilighted,.post-content img {
+ .post-content, .post-content .maphilighted, .post-content img {
   width: 100%;
   max-width: $maxWidth;
   background-repeat: none;
@@ -30,9 +29,9 @@
   display: inline;
   padding: 0; }
 
-/*
 .post-content img.post-cover {
   margin-bottom: 1.25rem; }
+
 
 @media only screen and (min-width: $cutoff) {
   .post-content img.post-cover {
@@ -45,7 +44,6 @@
   font-family: $fontfamily;
   font-weight: 300;
   font-style: normal; }
-*/
 
 .post-content p, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content ul, .post-content ol, .post-content iframe {
   width: auto;

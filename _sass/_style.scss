@@ -10,6 +10,14 @@ body {
 article, aside, footer, header, nav, section {
   display: block; }
 
+article {
+  margin-top: 0.3rem;
+}
+
+section.content {
+  padding-top: 0.35rem;
+}
+
 h1 {
   font-size: 2em;
   margin: .67em 0; 

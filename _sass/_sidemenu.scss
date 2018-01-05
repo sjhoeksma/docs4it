@@ -7,6 +7,10 @@ body.sidemenu {
   transition: none;
 }
 
+body.sidemenu main{
+  padding-top : 1em;
+}
+
 body.sidemenu .post {
  top: -1rem;
 }
@@ -59,7 +63,6 @@ sidemenu .fa {
   }
   
 }
-
 
 sidemenu {
   position: fixed;

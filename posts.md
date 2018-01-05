@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: submain
 ---
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
@@ -14,6 +14,7 @@ layout: main
                 <a href="{{ site.url }}{{ site.baseurl }}/categoria/{{ post.category }}">
                     <span class="float-left">{{ post.category }}</span>
 									<span class="float-right">
+                    <svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
 									<time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
                         {% include date.html date=post.date %}
                     </time>

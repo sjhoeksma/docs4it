@@ -1,8 +1,18 @@
-# Getting Started
+---
+layout: page
+title: ReadMe
+description: The ReadMe of CloudDocs.
+permalink: /readme/
+mermaid: true
+---
+
+# Read Me
+
+Read this document if you want to use CloudDocs for your own or want to contribute.
 
 ## Prerequisites
 
-To install this theme, jekyll is required to be installed on your system. Head over to the [docs](https://jekyllrb.com/docs/installation/) and install the four requirements (Ruby, RubyGems, Node.js and Python 2.7). If you're on a Mac system, it's likely the only package you'll need to install is Node.js
+To install this theme, jekyll is required to be installed on your system or you have to clone this project on [GitHub](https://pages.github.com/). Head over to the [docs](https://jekyllrb.com/docs/installation/) and install the four requirements (Ruby, RubyGems, Node.js and Python 2.7). If you're on a Mac system, it's likely the only package you'll need to install is Node.js
 
 Once you've installed the requirements, run this command in your terminal:
 
@@ -18,11 +28,9 @@ $ sudo gem install bundler
 
 ## Downloading and Installing the theme
 
-Download the theme
+Download the
+[theme](http://github.com/sjhoeksma/sjhoeksma.github.io/archive/master.zip)
 
-```
-http://github.com/sjhoeksma/sjhoeksma.github.io/archive/master.zip
-```
 
 Unzip it and use it as a regular jekyll folder.
 
@@ -50,11 +58,40 @@ $ jekyll serve
 
 # Installed addons
 
-We have added some addons which can be helpfull. With for example [mermaid](https://github.com/knsv/mermaid) you can draw images. To make it work just add `mermaid:true` to you .md header and in you text field add `<div class="mermaid">Mermiad tags here</div>`
+We have added some addons which can be helpfull. 
+
+## Mermaid
+With for example [mermaid](https://mermaidjs.github.io) you can draw images. To make it work just add `mermaid: true` to you .md header and in you text field add `<div class="mermaid">Mermiad tags here</div>`
+
+```html
+<div class="mermaid">
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>  
+```
+
+<div class="mermaid">
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>  
+
+    
+## Algolia
+We support [https://www.algolia.com](https://www.algolia.com) as search engine please configure it and ensure to run the main index after every update
+
+```
+ALGOLIA_API_KEY='Your Admin Api Key' bundle exec jekyll algolia
+```
 
 # Setup
 
-Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file.
+Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file and uncomment the parts you require.
 
 
 ## baseurl

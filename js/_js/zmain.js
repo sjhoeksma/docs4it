@@ -6,11 +6,14 @@
     $(".overlay").addClass("show");
   });
 
-  $("#mask").click(function() {
+  var closeMenu = function() {
     $("body").removeClass("push-menu-to-right");
     $("#sidebar").removeClass("open");
     $(".overlay").removeClass("show");
-  });
+  };
+  
+  $("#mask").click(closeMenu);
+  $("#sidebar").click(closeMenu);
 
   // Search
   var bs = {

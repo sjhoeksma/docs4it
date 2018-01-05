@@ -9,9 +9,9 @@
           <i class="fa fa-home"></i>
           Home
         </a></li>
-        
-        {% if site[page.:collection][0].url != page.url %}
-        <li><a href="{{ site[page.:collection][0].url }}">
+        {% assign pagename= page.url | split: "/" | last %}
+        {% if  page.:collection and page.:collection != pagename  %} 
+        <li><a href="{{ page.:collection | prepend: '/' | prepend: site.baseurl }}">
           <i class="fa fa-th-large"></i>
           Main
         </a></li>
