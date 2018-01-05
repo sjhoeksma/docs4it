@@ -12,7 +12,7 @@ if (((standalone in navigator) && navigator[standalone])) {
     if (!('href' in curnode) && e.target && e.target.hasAttribute('href')) {
       curnode=e.target;
     }
-    if('href' in curnode && // is a link
+    if('href' in curnode && curnode.href!="" && // is a link
       (chref=curnode.href).replace(location.href,'').indexOf('#') && // is not an anchor
       (	!(/^[a-z\+\.\-]+:/i).test(chref) ||                       // either does not have a proper scheme (relative links)
         chref.indexOf(location.protocol+'//'+location.host)===0 ) // or is in the same protocol and domain

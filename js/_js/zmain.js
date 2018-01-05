@@ -20,7 +20,7 @@
     dothis: $('.dosearch')
   };
 
-  bs.dothis.on('click', function() {
+  bs.dothis.on('click', function(e) {
     $('.search-wrapper').toggleClass('active');
     bs.searchform.toggleClass('active');
     bs.searchform.find('input').focus();
@@ -28,7 +28,7 @@
     $('.search-field').simpleJekyllSearch();
   });
 
-  function close_search() {
+  function close_search(e) {
     $('.search-wrapper').toggleClass('active');
     bs.searchform.toggleClass('active');
     bs.canvas.removeClass('search-overlay');

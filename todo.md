@@ -3,6 +3,7 @@
 * Principles = Principle slide
 * Improve search of documents  (https://www.algolia.com)
 * Create a one page to combine all pages of collections in one (easy printing)
+* search not working in safarimode
 
 
 
