@@ -12,4 +12,5 @@
 {% include_relative _js/target_blank.js %}
 {% include_relative _js/zmain.js %}
 {% include_relative _js/resizeimgmap.js %}
+{% include_relative _js/markdowncleanup.js %}
 {% include_relative _js/scrolltop.js %}

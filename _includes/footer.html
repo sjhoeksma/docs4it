@@ -1,11 +1,27 @@
 <footer>
     <p>
+      {% for ref in site.references %}
+      <a class="feed" href="{{ ref.url }}" title="Reference">
+        <svg class="love"><use xlink:href="#icon-heart"></use></svg>
+        {{ ref.title }}
+      </a>
+      {% endfor %}
       {% for ref in page.references %}
       <a class="feed" href="{{ ref.url }}" title="Reference">
         <svg class="love"><use xlink:href="#icon-heart"></use></svg>
         {{ ref.title }}
       </a>
       {% endfor %}
+      {% if page.datareferences %}
+         {% for post in site.data[page.datareferences] %}
+          {% for ref in post.references %}
+          <a class="feed" href="{{ ref.url }}" title="Reference">
+            <svg class="love"><use xlink:href="#icon-heart"></use></svg>
+            {{ ref.title }}
+          </a>
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
       {% if site.github_username %}
       <a itemprop="github" href="https://github.com/{{ site.github_username }}" title="Github">
         <svg><use xlink:href="#icon-github"></use></svg>

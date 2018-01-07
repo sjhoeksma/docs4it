@@ -11,3 +11,4 @@
 * jekyll:https://jekyllrb.com/docs/variables/
 * print-css:https://www.smashingmagazine.com/2015/01/designing-for-print-with-css/
 * Customside markdown:https://benhur07b.github.io/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
+* Working with Jekyll: https://devhints.io/jekyll

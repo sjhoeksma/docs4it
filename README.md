@@ -10,6 +10,28 @@ mermaid: true
 
 Organisation thinking about moving to the Cloud can use this website as a starting point. We have collected and combined information from different public available sources and have tried to make it readable. By placing all infromation into a Github project, you can clone and extend the infromation needed. Read this document if you want to use CloudDocs for your own or want to contribute.
 
+## Need help with Jekyll
+We use [Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to write our documents and use the GitHub support of Jekyll for this site. If you would like to know a bit more about the Jekyll functions look [here](https://devhints.io/jekyll). 
+
+Here are some advanced markdowns you can use
+
+```markdown
+- [x] this is a complete item
+- [ ] this is an incomplete item
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+
+We support emoji :+1: :sparkles: :camel: :tada::rocket: :metal: :octocat: 
+```
+- [x] this is a complete item
+- [ ] this is an incomplete item
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+
+We support emoji:+1: :sparkles: :camel: :tada::rocket: :metal: :octocat: 
+
+# Installing 
+
 ## Prerequisites
 
 To install this theme, jekyll is required to be installed on your system or you have to clone this project on [GitHub](https://pages.github.com/). Head over to the [docs](https://jekyllrb.com/docs/installation/) and install the four requirements (Ruby, RubyGems, Node.js and Python 2.7). If you're on a Mac system, it's likely the only package you'll need to install is Node.js

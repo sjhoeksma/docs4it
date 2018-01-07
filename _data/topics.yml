@@ -4,19 +4,17 @@
   url:  '/framework/'
   introduction: Here you find information about cloud. We use a simple framework to explain what is required and give some guidance on how you could implement cloud within your organisation.
   
-- title: Guiding Principles
-  category: Principles
-  image: '/assets/principles/principles.png'
-  url:  '/principles/'
-  introduction: We have defined some principles which may be handy.
-  
 - title: Cloud Skills & Roles
   category: skills
   image: '/assets/skills/Roles-Intro.png'
   url:  '/roles'
   introduction: You needed to have to right resources with the right skill set.  
-  references:
-   - { title: '', url: 'https://infocus.emc.com/choong_kengleong/cloud-operating-model-transformation/' }
+   
+- title: Guiding Principles
+  category: Principles
+  image: '/assets/principles/principles.png'
+  url:  '/principles/'
+  introduction: We have defined some principles which may be handy.   
   
 - title:  News
   date:   2018-01-01 08:30:56
