@@ -10,6 +10,14 @@
   url:  '/principles/'
   introduction: We have defined some principles which may be handy.
   
+- title: Cloud Skills & Roles
+  category: skills
+  image: '/assets/skills/Roles-Intro.png'
+  url:  '/roles'
+  introduction: You needed to have to right resources with the right skill set.  
+  references:
+   - { title: '', url: 'https://infocus.emc.com/choong_kengleong/cloud-operating-model-transformation/' }
+  
 - title:  News
   date:   2018-01-01 08:30:56
   category: News

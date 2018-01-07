@@ -356,7 +356,7 @@
   font-weight: 300;
   font-style: normal;
   font-size: 2.375rem;
-  margin-top: 3.75rem;
+ // margin-top: 3.75rem;
   width: auto;
   max-width: $maxWidth;
   float: none;
@@ -379,7 +379,7 @@
 
 .post-content .post-list {
   list-style: none;
-  margin: 1.563rem auto; }
+  margin: 0.563rem auto; }
 
 @media only screen and (max-width: $cutoff) {
   .post-content .post-list {
@@ -388,7 +388,7 @@
 .post-content .post-list a {
   display: block;
   border-bottom: 1px solid #dadada;
-  padding: .625rem 0;
+//  padding: .625rem 0;
   text-decoration: none;
   -webkit-transition: all .5s;
   transition: all .5s;

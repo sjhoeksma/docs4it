@@ -16,6 +16,7 @@ main {
 @media only screen and (min-width: $cutoff) {
   main {
     padding-top: 6.25rem; } }
+
 .row {
   width: auto;
   max-width: 100%;
@@ -144,7 +145,7 @@ main {
   line-height: 1.875rem; }
 
 .box-item .box-body p {
-  margin: 0 0 1.875rem;
+ // margin: 0 0 1.875rem;
   color: #c2c2c2;
   font-size: 1.063rem;
   line-height: 1.625rem; }
@@ -211,7 +212,8 @@ main {
   z-index: 1000; }
 
 .box-item .box-body .cover .preload {
-  background: url("/img/icons/preloader.svg") center center no-repeat; }
+  background: url("/img/icons/preloader.svg") center center no-repeat;
+}
 
 .box-item .box-info {
   padding: .938rem; }
