@@ -3,11 +3,13 @@ layout: framework
 hidetime: true
 title: Structure of principles
 permalink: /principles/
+description: This article was developed with the purpose of proposing certain principles that must drive an enterprise architecture initiative.
+category: Stratergy
 references:
    - { title: 'Principles of enterprise', url: 'https://www.ibm.com/developerworks/rational/library/enterprise-architecture-financial-sector/index.html' }
 ---
 
-This article was developed with the purpose of proposing certain principles that must drive an enterprise architecture initiative. The main motivation that led to the development of this list is the difficulty of implementing enterprise architecture in an environment as hostile as the financial market. There is great pressure on the technology segment, which is usually not perceived as strategic. An even greater challenge is showing that IT decisions can add value and differentials to businesses.
+{{ page.description }} The main motivation that led to the development of this list is the difficulty of implementing enterprise architecture in an environment as hostile as the financial market. There is great pressure on the technology segment, which is usually not perceived as strategic. An even greater challenge is showing that IT decisions can add value and differentials to businesses.
 
 This list was organized and developed based on the selection and adjustment of the most relevant principles established throughout my experience in the financial market. Despite being selected within the financial segment context, most of these principles apply to any type of industry after only a few minor adjustments.
 Definitions
