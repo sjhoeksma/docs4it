@@ -46,11 +46,15 @@
         }
 
         function performSearch(str){
-            var matches = [];
-
+          var matches = [];
+          const regexStr = '(?=.*' + str.split(/\ |\s/).join(')(?=.*') + ')';
+          const searchRegEx = new RegExp(regexStr + ".+", 'gi');
+        
             $.each(jsonData,function(i,entry){
-                for(var i=0;i<properties.length;i++)
-                    if(entry[properties[i]] !== undefined && entry[properties[i]].toLowerCase().indexOf(str.toLowerCase()) !== -1){
+                for(var i=0;i<4;i++) //We only search first 4 fields
+                    if(entry[properties[i]] !== undefined 
+                      && entry[properties[i]].match(searchRegEx)
+                    ) {
                         matches.push(entry);
                         i=properties.length;
                     }
