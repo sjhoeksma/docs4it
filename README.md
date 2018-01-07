@@ -2,13 +2,13 @@
 layout: page
 title: ReadMe
 description: The ReadMe of CloudDocs.
-permalink: /readme/
+permalink: /about/
 mermaid: true
 ---
 
-# Read Me
+# About CloudDocs
 
-Read this document if you want to use CloudDocs for your own or want to contribute.
+Organisation thinking about moving to the Cloud can use this website as a starting point. We have collected and combined information from different public available sources and have tried to make it readable. By placing all infromation into a Github project, you can clone and extend the infromation needed. Read this document if you want to use CloudDocs for your own or want to contribute.
 
 ## Prerequisites
 
@@ -116,9 +116,8 @@ You theme is setup just like a normal Jelyll site! To test your theme, run `bund
 
 # License
 
-This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/).
+The template work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/). We used content from other public website and therefor included the link to the orignal materials as reference.
 
 [1]: http://jekyllrb.com
-[2]: https://github.com/jasonlong
-[3]: http://pages.github.com/
-[4]: https://www.rossener.com/jekflix-template/
+[2]: http://pages.github.com/
+[3]: https://www.rossener.com/jekflix-template/

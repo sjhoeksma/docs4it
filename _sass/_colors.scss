@@ -1,0 +1,102 @@
+//Color style sheet making it easy to add colors to spefic classes.
+/* Theme */
+.color-theme { color: $themeColor; }
+.color-dark { color : $primaryDark; }
+.color-accent { color : $accentDark; }
+.color-lightgray {color : $lightGray; }
+/* Colors */
+.color-navy { color: #001F3F; }
+.color-blue { color: #0074D9; }
+.color-aqua { color: #7FDBFF; }
+.color-teal { color: #39CCCC; }
+.color-olive { color: #3D9970; }
+.color-green { color: #2ECC40; }
+.color-lime { color: #01FF70; }
+.color-yellow { color: #FFDC00; }
+.color-orange { color: #FF851B; }
+.color-red { color: #FF4136; }
+.color-fuchsia { color: #F012BE; }
+.color-purple { color: #B10DC9; }
+.color-maroon { color: #85144B; }
+.color-white { color: #FFFFFF; }
+.color-silver { color: #DDDDDD; }
+.color-gray { color: #AAAAAA; }
+.color-black { color: #111111; }
+/* Backgrounds */
+.color-bg-navy { background-color: #001F3F; }
+.color-bg-blue { background-color: #0074D9; }
+.color-bg-aqua { background-color: #7FDBFF; }
+.color-bg-teal { background-color: #39CCCC; }
+.color-bg-olive { background-color: #3D9970; }
+.color-bg-green { background-color: #2ECC40; }
+.color-bg-lime { background-color: #01FF70; }
+.color-bg-yellow { background-color: #FFDC00; }
+.color-bg-orange { background-color: #FF851B; }
+.color-bg-red { background-color: #FF4136; }
+.color-bg-fuchsia { background-color: #F012BE; }
+.color-bg-purple { background-color: #B10DC9; }
+.color-bg-maroon { background-color: #85144B; }
+.color-bg-white { background-color: #FFFFFF; }
+.color-bg-gray { background-color: #AAAAAA; }
+.color-bg-silver { background-color: #DDDDDD; }
+.color-bg-black { background-color: #111111; }
+
+/* Border colors 
+   Use with another border utility that sets border-width and style 
+   i.e .border { border-width: 1px); border-style: solid); }     
+*/
+.color-border-navy { border-color: #001F3F; }
+.color-border-blue { border-color: #0074D9; }
+.color-border-aqua { border-color: #7FDBFF; }
+.color-border-teal { border-color: #39CCCC; }
+.color-border-olive { border-color: #3D9970; }
+.color-border-green { border-color: #2ECC40; }
+.color-border-lime { border-color: #01FF70; }
+.color-border-yellow { border-color: #FFDC00; }
+.color-border-orange { border-color: #FF851B; }
+.color-border-red { border-color: #FF4136; }
+.color-border-fuchsia { border-color: #F012BE; }
+.color-border-purple { border-color: #B10DC9; }
+.color-border-maroon { border-color: #85144B; }
+.color-border-white { border-color: #FFFFFF; }
+.color-border-gray { border-color: #AAAAAA; }
+.color-border-silver { border-color: #DDDDDD; }
+.color-border-black { border-color: #111111; }
+/* Fills for SVG */
+.color-fill-navy { fill: #001F3F; }
+.color-fill-blue { fill: #0074D9; }
+.color-fill-aqua { fill: #7FDBFF; }
+.color-fill-teal { fill: #39CCCC; }
+.color-fill-olive { fill: #3D9970; }
+.color-fill-green { fill: #2ECC40; }
+.color-fill-lime { fill: #01FF70; }
+.color-fill-yellow { fill: #FFDC00; }
+.color-fill-orange { fill: #FF851B; }
+.color-fill-red { fill: #FF4136; }
+.color-fill-fuchsia { fill: #F012BE; }
+.color-fill-purple { fill: #B10DC9; }
+.color-fill-maroon { fill: #85144B; }
+.color-fill-white { fill: #FFFFFF; }
+.color-fill-gray { fill: #AAAAAA; }
+.color-fill-silver { fill: #DDDDDD; }
+.color-fill-black { fill: #111111; }
+/* Strokes for SVG */
+.color-stroke-navy { stroke: #001F3F; }
+.color-stroke-blue { stroke: #0074D9; }
+.color-stroke-aqua { stroke: #7FDBFF; }
+.color-stroke-teal { stroke: #39CCCC; }
+.color-stroke-olive { stroke: #3D9970; }
+.color-stroke-green { stroke: #2ECC40; }
+.color-stroke-lime { stroke: #01FF70; }
+.color-stroke-yellow { stroke: #FFDC00; }
+.color-stroke-orange { stroke: #FF851B; }
+.color-stroke-red { stroke: #FF4136; }
+.color-stroke-fuchsia { stroke: #F012BE; }
+.color-stroke-purple { stroke: #B10DC9; }
+.color-stroke-maroon { stroke: #85144B; }
+.color-stroke-white { stroke: #FFFFFF; }
+.color-stroke-gray { stroke: #AAAAAA; }
+.color-stroke-silver { stroke: #DDDDDD; }
+.color-stroke-black { stroke: #111111; }
+
+

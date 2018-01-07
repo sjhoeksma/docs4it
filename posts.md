@@ -9,7 +9,7 @@ layout: submain
     {% endif %}
     <div id="grid" class="row flex-grid float-right">
     {% for post in site.posts %}
-        <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <article id="{{ post.title | remove: ' ' }}" class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <span class="category">
                 <a href="{{ site.url }}{{ site.baseurl }}/categoria/{{ post.category }}">
                     <span class="float-left">{{ post.category }}</span>

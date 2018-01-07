@@ -7,7 +7,7 @@ layout: main
    <div class="index">
     <div id="grid" class="row flex-grid float-right">
     {% for post in site.data.roles %}
-        <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <article id="{{ post.role | remove: ' ' }}" class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                     <h2 class="color-white" >{{ post.role }}</h2>
             <div class="box-body">
                 {% if post.image %}

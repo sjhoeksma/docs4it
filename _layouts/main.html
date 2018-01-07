@@ -7,7 +7,8 @@ layout: compress
     {% include head.html %}
     <body class="main-page has-push-menu">
         {% include svg-icons.html %}
-         {% include header.html %}
+         
+         {% include header.html backmenu=page.nobackmenu %} 
             <section class="content">
                 {{ content }}
             </section>

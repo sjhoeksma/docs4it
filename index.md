@@ -1,12 +1,13 @@
 ---
 layout: main
+nobackmenu: true
 ---
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
    <div class="index">
     <div id="grid" class="row flex-grid float-right">
     {% for post in site.data.topics %}
-        <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <article id="{{ post.title | remove: ' ' }}" class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <span class="category">
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <span class="float-left">{{ post.title }}</span>

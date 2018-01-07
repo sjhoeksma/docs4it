@@ -3,12 +3,13 @@ html, body {
 
 .bar-header {
   background-color: $primaryDark;
-  padding: .625rem .938rem;
+  padding: .625rem 0rem;
   position: fixed;
   width: 100%;
   z-index: 10;
   -webkit-transition: top .5s;
   transition: top .5s; }
+
 
 @media only print {
   .bar-header {
@@ -18,7 +19,8 @@ html, body {
 
 @media only screen and (min-width: $cutoff) {
   .bar-header {
-    padding: .938rem 0; } }
+    padding: .938rem 0;
+  } }
 .bar-header .logo {
   margin: 0;
   height: 2rem;
@@ -37,9 +39,22 @@ html, body {
   height: 1.25rem;
   fill: #fff; }
 
+.bar-header .icon-back {
+  float: left;
+  cursor: pointer;
+  margin: .313rem 0rem .313rem 1rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: white;  
+  font-weight: 300;
+  font-size: 1.25rem;
+  font-style: normal;
+}
+
 @media only screen and (min-width: $cutoff) {
   .bar-header .icon-menu {
-    margin: .313rem 1.25rem .313rem 1.563rem; } }
+    margin: .313rem 1.25rem .313rem 0.5rem; } 
+}
 .bar-header .dosearch {
   float: right;
   display: inline-block;
