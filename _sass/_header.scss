@@ -34,7 +34,7 @@ html, body {
 .bar-header .icon-menu {
   float: left;
   cursor: pointer;
-  margin: .313rem 1.25rem .313rem 0;
+  margin: .313rem 1.25rem .313rem 1rem;
   width: 1.25rem;
   height: 1.25rem;
   fill: #fff; }
@@ -42,7 +42,7 @@ html, body {
 .bar-header .icon-back {
   float: left;
   cursor: pointer;
-  margin: .313rem 0rem .313rem 1rem;
+  margin: .313rem -0.5rem 1.313rem 1rem;
   width: 1.25rem;
   height: 1.25rem;
   color: white;  
@@ -53,7 +53,7 @@ html, body {
 
 @media only screen and (min-width: $cutoff) {
   .bar-header .icon-menu {
-    margin: .313rem 1.25rem .313rem 0.5rem; } 
+    margin: .313rem 1.25rem .313rem 1rem; } 
 }
 .bar-header .dosearch {
   float: right;
