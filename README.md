@@ -30,7 +30,7 @@ We support emoji :+1: :sparkles: :camel: :tada::rocket: :metal: :octocat:
 
 We support emoji:+1: :sparkles: :camel: :tada::rocket: :metal: :octocat: 
 
-# Installing 
+# Using CloudDocs yourself 
 
 ## Prerequisites
 
@@ -38,13 +38,13 @@ To install this theme, jekyll is required to be installed on your system or you 
 
 Once you've installed the requirements, run this command in your terminal:
 
-```
+```bash
 $ sudo gem install jekyll
 ```
 
 You'll also need to install the bundler package:
 
-```
+```bash
 $ sudo gem install bundler
 ```
 
@@ -56,25 +56,25 @@ Download the
 
 Unzip it and use it as a regular jekyll folder.
 
-```
+```bash
 $ unzip master.zip
 ```
 
 Get inside the newly extracted folder
 
-```
+```bash
 $ cd master
 ```
 
 Install the dependencies
 
-```
+```bash
 $ bundle install
 ```
 
 Use it!
 
-```
+```bash
 $ jekyll serve
 ```
 
@@ -107,7 +107,7 @@ graph TD;
 ## Algolia
 We support [https://www.algolia.com](https://www.algolia.com) as search engine please configure it and ensure to run the main index after every update
 
-```
+```bash
 ALGOLIA_API_KEY='Your Admin Api Key' bundle exec jekyll algolia
 ```
 

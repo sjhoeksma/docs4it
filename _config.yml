@@ -49,11 +49,12 @@ sass:
  
 # Collection Directory
 collections:
-  - topics
+  - principles
   - framework
+  
  
 collections:
-  topics:
+  principles:
     output: true
     permalink: /:collection/:name
   posts:

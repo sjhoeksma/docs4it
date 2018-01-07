@@ -1,10 +1,12 @@
-main {
+.content, main {
   font-family: $fontfamily;
   font-weight: 400;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 2.5rem; }
+  padding-top: 2.5rem;
+  color: white;
+}
 
 @media only print {
   main {
@@ -13,7 +15,7 @@ main {
 }
 
 @media only screen and (min-width: $cutoff) {
-  main {
+  .content, main {
     padding-top: 5.25rem; } }
 
 .row {
@@ -66,7 +68,7 @@ main {
   flex: 1 0 300px;
   margin: 0 0 1.875rem;
   display: inline-block;
-  min-height: 17.813rem;
+  min-height: 15.813rem;
   -webkit-transition: all .3s;
   transition: all .3s;
   position: relative;

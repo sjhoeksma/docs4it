@@ -13,9 +13,11 @@ layout: compress
         <section class="post">
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
+                {% if page.hidetime!=true %}
                 <span class="post-info float-right time">
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
                     {{ minutesText }}</span>
+                {% endif %}
                 <h1 class="post-title" itemprop="name">{{ page.title }}
                     
               </h1>

@@ -12,21 +12,10 @@ layout: compress
       
         <section class="post">
 
-            <article role="article" id="post" class="post-content" itemprop="articleBody">
-                <span class="post-info float-right time">
-                    {% if page.date %}
-                        <svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
-                        <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">
-                            {% include date.html date=page.date %}
-                        </time>
-                    {% endif %}
-                    {% if page.hidetime!=true %}
-                    <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    {{ minutesText }}</span>
-                    {% endif %}
-                <h1 class="post-title" itemprop="name">{{ page.title }}
-                    
-              </h1>
+            <article role="article" id="principle" class="post-content" itemprop="articleBody">
+                <span class="post-info float-right time">{{ page.category }}</span>
+                <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+                            
               <p itemprop="description" class="subtitle">{{ page.description }}
                 {% if page.image %}
                   <img src="{{ page.image }}" class="post-cover" 
@@ -46,9 +35,34 @@ layout: compress
                     >
                    {% endif %}
                 {% endif %}
-                </p> 
+                </p>
                 
+                <div id="grid" class="row flex-grid">
+                  <div  id="rationale" class="box-item" >
+                    <h3 class="post-title" itemprop="name">Rationale</h3>
+                    {% capture alen %}{{ page.rationale | size }}{% endcapture %}
+                    {% if alen == '1' %}
+                       {{ page.rationale }}
+                    {% else %}
+                    <lu >
+                    {% for line in page.rationale %}
+                    <li>{{line}}</li>
+                    {% endfor %}
+                    </lu>
+                    {% endif %}
+                  </div>
+                  <div id="implications" class="box-item">
+                   <h3 class="post-title" itemprop="name">Implications</h3> 
+                   <lu >
+                    {% for line in page.implications %}
+                    <li >{{line}}</li>
+                    {% endfor %}
+                    </lu>
+                  </div>
+                </div>    
+               
                 {{ content }}
+              
             </article>
           
            {% include paging.html %}
