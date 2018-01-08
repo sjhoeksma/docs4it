@@ -1,6 +1,9 @@
 * Check for better compress
 * Principles = Principle slide
 * Create a one page to combine all pages of collections in one (easy printing)
+soundex
+regex search
+replace zoid with jquerty
 
 
 
