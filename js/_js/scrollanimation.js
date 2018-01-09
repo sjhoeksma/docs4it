@@ -8,7 +8,7 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
-;( function( window ) {
+;( function( $,window ) {
     
     'use strict';
     
@@ -106,7 +106,7 @@
                 self.items.forEach( function( el, i ) {
                     if( inViewport( el ) ) {
                         self._checkTotalRendered();
-                        classie.add( el, 'shown' );
+                        $(el).addClass('shown' );
                         
                         loadImageUrl(el.querySelector('.preload'));
                     }
@@ -130,7 +130,7 @@
         _scrollPage : function() {
             var self = this;
             this.items.forEach( function( el, i ) {
-                if( !classie.has( el, 'shown' ) && !classie.has( el, 'animate' ) && inViewport( el, self.options.viewportFactor ) ) {
+                if( !$(el).hasClass('shown' ) && !$(el).hasClass('animate' ) && inViewport( el, self.options.viewportFactor ) ) {
                     setTimeout( function() {
                         var perspY = scrollY() + getViewportH() / 2;
                         self.el.style.WebkitPerspectiveOrigin = '50% ' + perspY + 'px';
@@ -146,7 +146,7 @@
                             el.style.animationDuration = randDuration;
                         }
                         
-                        classie.add( el, 'animate' );
+                        $(el).addClass('animate' );
 
                         loadImageUrl(el.querySelector('.preload'));
 
@@ -177,4 +177,4 @@
     // add to global namespace
     window.AnimOnScroll = AnimOnScroll;
 
-} )( window );
+} )( jQuery,window );

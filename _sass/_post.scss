@@ -7,7 +7,9 @@
   .post {
     top: 3.125rem; } }
 .post-content {
-  padding: 1.5rem 0; }
+  color: $primaryDark;
+  padding: 1.5rem 0;
+}
 
 @media only print {
   .post {
@@ -269,7 +271,7 @@
   padding: .625rem;
   -webkit-transition: bottom .5s;
   transition: bottom .5s;
-  border-top: 1px solid$lightGray; }
+  border-top: 1px solid $lightGray; }
 
 .progress-bar .bar {
   display: block;
@@ -354,6 +356,7 @@
 
 .post-content .tag-title {
   font-family: $fontfamily;
+  color: $primaryDark;
   font-weight: 300;
   font-style: normal;
   font-size: 2.375rem;
