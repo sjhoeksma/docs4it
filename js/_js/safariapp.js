@@ -19,6 +19,7 @@ if (((standalone in navigator) && navigator[standalone])) {
     ) {
       e.preventDefault();
       location.href = curnode.href;
+      
     }
   },false);
 }
