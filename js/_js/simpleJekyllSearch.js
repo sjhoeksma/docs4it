@@ -4,7 +4,7 @@
             jsonFile        : '/search.json',
             jsonLastSearch  : 3,
             jsonFormat      : 'title,tags,categories,content,url,date',
-            template : '<li><article><a href="{url}"><span class="entry-category">{categories}</span><span class="search-snippet"><b><i>{title}</i></b> - {content}</span><span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
+            template : '<li><article><a href="{url}" class="search-link"><span class="entry-category">{categories}</span><span class="search-snippet"><b><i>{title}</i></b> - {content}</span><span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
             searchResults   : '.search-results',
             limit           : '50',
             noResults       : '<p>No Results :(</p>'

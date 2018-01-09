@@ -143,15 +143,14 @@
   color: $accentDark;
   margin-bottom: 30px;
 }
-.search-link .ais-Highlight {
-  color: $themeColor ;
-  font-style: normal;
-}
-.search-snippet .ais-Highlight {
-  color: $themeColor;
+
+
+.search-link .ais-Highlight, .search-snippet .ais-Highlight {
+  color: $searchColor;
   font-style: normal;
   font-weight: bold;
 }
+
 .search-snippet img {
   display: none;
 }
