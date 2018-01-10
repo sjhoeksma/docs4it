@@ -1,3 +1,9 @@
+- title:  IT Framework
+  category: Strategy
+  image: '/assets/framework/mof.png'
+  url:  '/mof/'
+  introduction: Here you find information about the IT framework of Microsoft(MOF). We have a preferance of using this above ITTL because it is uses the same concepts as ITTL but is less complex.
+
 - title:  Cloud Framework
   category: Strategy
   image: '/assets/framework/framework.png'

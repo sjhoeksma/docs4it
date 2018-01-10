@@ -63,6 +63,10 @@ collections:
   framework:
     output: true
     permalink: /:collection/:name
+  mof:
+    output: true
+    permalink: /:collection/:name  
+    
   
   
 # User Settings

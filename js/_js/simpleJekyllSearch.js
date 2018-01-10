@@ -2,8 +2,8 @@
     $.fn.simpleJekyllSearch = function(options) {
         var settings = $.extend({
             jsonFile        : '/search.json',
-            jsonLastSearch  : 3,
-            jsonFormat      : 'title,tags,categories,content,url,date',
+            jsonLastSearch  : 2,
+            jsonFormat      : 'title,categories,content,tags,url,date',
             template : '<li><article><a href="{url}" class="search-link"><span class="entry-category">{categories}</span><span class="search-snippet"><b><i>{title}</i></b> - {content}</span><span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
             searchResults   : '.search-results',
             limit           : '50',
@@ -113,12 +113,12 @@
                 $.each(m,function(i,entry){
                     if(i<settings.limit){
                         var output=settings.template;
-                        for(var i=0;i<properties.length;i++){
-                            var regex = new RegExp("\{" + properties[i] + "\}", 'g');
-                            if (i<=settings.jsonLastSearch) {
-                               output = output.replace(regex, highlightPartial(entry[properties[i]],search));    
+                        for(var j=0;j<properties.length;j++){
+                            var regex = new RegExp("\{" + properties[j] + "\}", 'g');
+                            if (j<=settings.jsonLastSearch) {
+                               output = output.replace(regex, highlightPartial(entry[properties[j]],search));    
                             } else {
-                              output = output.replace(regex, entry[properties[i]]);
+                              output = output.replace(regex, entry[properties[j]]);
                             }
                         }
                         searchResults.append($(output));

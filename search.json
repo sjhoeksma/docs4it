@@ -23,6 +23,17 @@
     } ,
   {% endfor %}
   
+  {% for post in site.mof %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "tags"     : "{{ post.tags | array_to_sentence_string }}",
+      "categories" : "{{ post.category }}",
+      "content"  : "{{ post.introduction }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date | date: '%m/%d/%Y'}}"
+    } ,
+  {% endfor %}
+  
   {% for post in site.data.roles %}
     {
       "title"    : "{{ post.role | escape }}",
