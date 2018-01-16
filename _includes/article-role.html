@@ -1,0 +1,19 @@
+ <article id="{{ page.role | remove: ' ' }}" class="{{ include.class }}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <h2>{{ page.role }}</h2>
+    <div class="box-body">
+        {% if page.image %}
+            <div class="cover">
+              {% if include.preload %}
+                <img src="/img/placeholder.png" data-url="{{ page.image }}" class="preload" >
+              {% else %}
+               <img src="{{ page.image }}" >
+              {% endif %}
+            </div>
+        {% endif %}
+        <div class="box-info">
+          <p class="description"><b>Duties: </b>{{ page.duties }}</p>
+                <p class="description"><b>Education: </b>{{ page.education }}</p>
+                <p class="description"><b>Skills: </b>{{ page.skills }}</p>
+        </div>
+    </div>
+</article>

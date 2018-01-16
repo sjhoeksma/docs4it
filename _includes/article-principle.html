@@ -1,0 +1,51 @@
+<article id="{{ include.id | default: page.title  }}" role="article" class="post-content principle {{ include.class }}" itemprop="articleBody">
+  <span class="post-info float-right time">{{ page.category }}</span>
+  <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+
+  <p itemprop="description" class="subtitle">{{ page.description }}
+    {% if page.image %}
+      <img src="{{ page.image }}" class="post-cover" 
+      {% if page.imagemap %}
+              usemap="#main-image" />
+              <map name="main-image">
+              {% for s in page.imagemap %}
+                  <area shape="{{ s.shape | default: 'rect' }}" coords="{{ s.coord }}" 
+                        href="{{ s.href }}" 
+                        alt="{{ s.name }}" title="{{ s.name }}"
+                        {{ s.option }}
+                  />
+              {% endfor %}
+              </map>
+            <span class="post-info float-right">*Clickable</span>
+       {% else %}
+        />
+       {% endif %}
+    {% endif %}
+    </p>
+
+    <div id="grid" class="row flex-grid">
+      <div  id="rationale" class="box-item" >
+        <h3 class="post-title" itemprop="name">Rationale</h3>
+        {% capture alen %}{{ page.rationale | size }}{% endcapture %}
+        {% if alen == '1' %}
+           {{ page.rationale }}
+        {% else %}
+        <lu >
+        {% for line in page.rationale %}
+        <li>{{line}}</li>
+        {% endfor %}
+        </lu>
+        {% endif %}
+      </div>
+      <div id="implications" class="box-item">
+       <h3 class="post-title" itemprop="name">Implications</h3> 
+       <lu >
+        {% for line in page.implications %}
+        <li >{{line}}</li>
+        {% endfor %}
+        </lu>
+      </div>
+  </div>  
+  
+  {{ page.content }}
+</article>

@@ -12,73 +12,13 @@ layout: compress
       
         <section class="post">
 
-            <article role="article" id="principle" class="post-content" itemprop="articleBody">
-                <span class="post-info float-right time">{{ page.category }}</span>
-                <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-                            
-              <p itemprop="description" class="subtitle">{{ page.description }}
-                {% if page.image %}
-                  <img src="{{ page.image }}" class="post-cover" 
-                  {% if page.imagemap %}
-                          usemap="#main-image" >
-                          <map name="main-image">
-                          {% for s in page.imagemap %}
-                              <area shape="{{ s.shape | default: 'rect' }}" coords="{{ s.coord }}" 
-                                    href="{{ s.href }}" 
-                                    alt="{{ s.name }}" title="{{ s.name }}"
-                                    {{ s.option }}
-                              />
-                          {% endfor %}
-                          </map>
-                        <span class="post-info float-right">*Clickable</span>
-                   {% else %}
-                    >
-                   {% endif %}
-                {% endif %}
-                </p>
-                
-                <div id="grid" class="row flex-grid">
-                  <div  id="rationale" class="box-item" >
-                    <h3 class="post-title" itemprop="name">Rationale</h3>
-                    {% capture alen %}{{ page.rationale | size }}{% endcapture %}
-                    {% if alen == '1' %}
-                       {{ page.rationale }}
-                    {% else %}
-                    <lu >
-                    {% for line in page.rationale %}
-                    <li>{{line}}</li>
-                    {% endfor %}
-                    </lu>
-                    {% endif %}
-                  </div>
-                  <div id="implications" class="box-item">
-                   <h3 class="post-title" itemprop="name">Implications</h3> 
-                   <lu >
-                    {% for line in page.implications %}
-                    <li >{{line}}</li>
-                    {% endfor %}
-                    </lu>
-                  </div>
-                </div>    
-               
-                {{ content }}
-              
-            </article>
+           {% include minutes-to-read.html content=page.content %}
           
-           {% include paging.html %}
+           {% include article-principle.html %}
 
-           
-           {% if site.showProgressBar and totalMinutes >= site.showProgressBar %}
-            <div class="progress-bar" data-minutes="{{ totalMinutes }}">
-                <span class="time-completed"></span>
-                <span class="time-remaining"></span>
-                <div class="bar">
-                    <span class="completed" style="width:0%;"></span>
-                    <span class="remaining" style="width:100%;"></span>
-                </div>
-            </div>
-            {% endif %}
-            {% include footer.html %}
+           {% include paging.html %}
+          
+           {% include footer.html %}
         </section>
     </body>
 </html>

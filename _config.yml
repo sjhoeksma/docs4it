@@ -37,6 +37,8 @@ permalink: /:name/
 links:
   - title: Home
     url: /
+  - title: Print
+    url: /print/
   - title: About
     url: /about/
   - title: Contact
