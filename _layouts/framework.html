@@ -14,7 +14,7 @@ layout: compress
            {% include minutes-to-read.html content=page.content %}
           
            {% case page.article %}
-             {% when principle %}
+             {% when 'principle' %}
                 {% include article-principle.html %}
              {% else %}
                {% include article-framework.html %}

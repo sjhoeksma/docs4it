@@ -17,6 +17,12 @@
   }
 }
 
+  
+.post-content .box-body .box-info {
+  max-width: none;
+}
+  
+
  .post-content, .post-content .maphilighted, .post-content img {
   width: 100%;
   max-width: $maxWidth;

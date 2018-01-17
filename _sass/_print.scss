@@ -1,0 +1,66 @@
+@media print {
+   @page {
+      margin: 2cm;
+      size: A4;
+     
+     :blank { 
+        @top-center { content: "This page is intentionally left blank." }
+     }
+   }
+
+    chapter {
+    
+    }
+
+    chapter h1:before {
+      counter-increment: chapternum;
+      content: counter(chapternum) ". ";
+    }
+
+    chapter img:before {
+      counter-increment: figurenum;
+      content: counter(chapternum) "-" counter(figurenum) ". ";
+    }
+
+  
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+       counter-reset: chapternum figurenum;
+     }
+ 
+
+    @page :right {
+      @top-right {
+        content: string(doctitle);
+        margin: 30pt 0 10pt 0;
+        font-size: 8pt;
+      }
+    }
+
+  
+  il, img, table, figure  {
+   page-break-inside: avoid;
+  }
+  
+  * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+  
+  h1, h2, h3 {
+    page-break-after: avoid;
+    margin: auto;
+    padding: 0;
+  }
+ 
+  chapter {
+    page-break-before: always;
+    counter-reset: figurenum;
+    string-set: doctitle content(); 
+  }
+  
+
+  
+}
