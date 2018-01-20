@@ -67,7 +67,11 @@ collections:
     permalink: /:collection/:name
   mof:
     output: true
-    permalink: /:collection/:name  
+    permalink: /:collection/:name
+  roles:
+    output: true
+    permalink: /:collection/:name
+    
     
   
   

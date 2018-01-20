@@ -9,7 +9,7 @@ references:
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
    <div class="index">
     <div id="grid" class="row flex-grid float-right">
-    {% for page in site.data.roles %}
+    {% for page in site.roles %}
        {% include article-role.html  class='box-item' preload=true %}
     {% endfor %}
     </div>	

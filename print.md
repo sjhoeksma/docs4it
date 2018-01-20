@@ -25,7 +25,7 @@ permalink: /print/
             {% include article-{{ page.layout | default: 'framework'}}.html %}
           {% endfor %}
           </chapter><chapter>
-          {% assign pages = site.data.roles %}
+          {% assign pages = site.roles %}
           {% for page in pages %}
             {% include article-role.html class='post-content' %}
           {% endfor %}

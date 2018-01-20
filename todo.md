@@ -23,4 +23,9 @@ PAGE :https://www2.deloitte.com/content/dam/Deloitte/nl/Documents/technology/del
 * Customside markdown:https://benhur07b.github.io/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
 * Working with Jekyll: https://devhints.io/jekyll
 * SoundexSearch: http://fusejs.io
+* Print Reagons: https://www.quackit.com/css/at-rules/css_top-right-corner_at-rule.cfm
+* Agile Projectportfolio: http://blog.planview.com/portfolio-resource-management-agile/
+
+
+
 
