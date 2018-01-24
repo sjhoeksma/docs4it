@@ -8,8 +8,43 @@ tags:
 - cloud
 - risk
 introduction: Focuses on the organization’s capability to understand the business impact of preventable, strategic, and external risks to the organization. For many, these risks stem from the impact of financial and technology constraints on agility.
+references:
+  - { title: 'Cloud Risk Principles', url: 'https://www.isaca.org/Journal/archives/2012/Volume-5/Pages/Cloud-Risk-10-Principles-and-a-Framework-for-Assessment.aspx'}
+  - { title: 'Managing Risk in the Cloud', url: 'http://ws680.nist.gov/publication/get_pdf.cfm?pub_id=919234' }
+  - { title: 'Risk Management in Cloud Computing', url: 'https://www.cio.com/article/2409109/cloud-computing/risk-management-in-cloud-computing.html'}
 ---
 {{ page.introduction }}
 Organizations find that with a move to the cloud, many of these constraints are reduced or eliminated. Taking full advantage of this newfound agility requires teams to develop new skills to understand the competitive marketplace and
 potential disrupters, and to explore new processes for evaluating the business risks of such competitors.
+
+Information security has long been built on the assumption that the internal network within a company is a safe area and has to be protected against threats from outside. In the digitalized world where everything is interconnected, the traditional company boundaries are more complex and therefore, information security has to be redefined accordingly.
+
+Information security in the modern business world can be defined in the following three categories:
+
+1. **Devices** should contain as little confidential data as possible because they are prone to be lost, stolen or misused. All terminal devices should be protected by an intrusion prevention software, and all data in the devices should be encrypted. These actions can be thought as “vaccinations” against various threats i.e., not giving 100% protection but a good enough precaution that can stop the viruses spreading even further.
+1. **Networks** where the devices are used vary from completely open to closed networks. Most companies’ internal networks may still be insecure even when protected. Therefore, the traffic in the networks must be controlled and analysed to detect the anomalies as early as possible so that the possible damages can be stopped or minimized. Network protection needs both preventive and recovery actions coupled with the ability to react fast and professionally against any security hazard.
+1. **Information storages** containing the company information should be protected according to criticality of the information. All information should be classified, yet aiming for simplicity. For example, classifying the information as highly confidential, company confidential or public. This way the protection can be defined separately for each class, and the highest, and usually the most expensive protection mechanisms can be applied where it is truly needed while keeping the protection to fit-for-purpose level in the other levels.
+
+On top of technical information security, a well-designed Identity and Access Management (IAM) is needed in order to prevent misuse of a (legitimate) identity that can lead to:
+
+* grant access to confidential information to unwanted parties
+* copy and use of the information for unauthorized/illicit purposes
+* destroy the data or cause other harm to it
+* modify the data to suit for own purposes
+
+One of the most important security measures is to minimize the possibility of human errors that can pave the way for security violations. The following actions should be considered for prevention:
+
+1. **Instructing and tutoring the users** to prevent exposure for security threats caused by careless use. All users should be instructed to use safe passwords and safe storing of passwords as well as what to do if the terminal device is lost or they suspect a security violation to take place. These action are aimed to prevent the identity thefts.
+1. **Appropriate definition of user rights** to prevent unauthorized access or possibility to perform actions that exceed the access rights. For example, an employee should not have the rights to both create and approve the same chargeable invoice. These measures are aimed to prevent the misuse of an identity.
+
+Information security is conducted in co-operation between the following three parties:
+
+* **Chief Information Security Officer** (CISO) is responsible for planning and execution of the information security
+* **Business Management** is responsible for ensuring the business continuity and approving of the acceptable risk levels
+* **Service Providers** are responsible for information security operations
+ 
+
+IT-related **risk management** must also be an integrated part of the company’s overall management systems. Risk management means systematically recognizing and preparing for factors that cause uncertainty and threats to company objectives and operations. Since risks can never be entirely eliminated, management must define the company’s acceptable risk level. Company management defines risk management policies, applicable methods, responsibilities and tasks for different parties as well as practices for monitoring and reporting. Business targets and uncertainty factors change over time, so risk management must also be treated as a continuous process.
+
+**Quality assurance** keeps IT operations in line with standards and best practices, and ensures that the quality requirements of IT are met. IT processes must be described and they must aim to produce the best user experience. Quality assurance needs to be integrated into all IT processes and services. Quality assurance is not only about the systematic measurement of operations, processes, and services, but also their continuous development and overall business performance assurance. Additionally, it means maintaining constant focus on the business value created by IT.
 

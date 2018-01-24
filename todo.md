@@ -25,6 +25,14 @@ PAGE :https://www2.deloitte.com/content/dam/Deloitte/nl/Documents/technology/del
 * SoundexSearch: http://fusejs.io
 * Print Reagons: https://www.quackit.com/css/at-rules/css_top-right-corner_at-rule.cfm
 * Agile Projectportfolio: http://blog.planview.com/portfolio-resource-management-agile/
+* Oracle : https://technology.amis.nl/2016/10/31/oracle-paas-cloud-the-api-platform-service-launch-date-winter-201617/
+* SAP: https://diginomica.com/2017/05/14/sap-cloud-platform-the-multi-cloud-almost-realized-a-sapphirenow-2017-tech-preview/
+* MS integration: http://blog.sysfore.com/microsoft-cloud-platform-integration-framework-architecture/
+https://www.microsoft.com/presspass/imagegallery/images/products/cloud/infographic_SMBCloud_web.jpg
+* VMWARE: https://blogs.vmware.com/cloudops/2016/02/cloud-business-strategy.html / https://blogs.vmware.com/cloudops/2015/07/cloud-business-management.html
+* Linkedin: https://www.linkedin.com/pulse/cost-accounting-saas-solution-paul-hart-prieto/  | https://www.peoplehr.com/blog/index.php/2015/06/12/saas-vs-on-premise-hr-systems-pros-cons-hidden-costs/
+https://www.linkedin.com/pulse/5-things-every-ceo-should-know-before-going-cloud-mike-kavis/
+https://www.cloudtp.com/doppler/5-things-every-ceo-know-going-cloud/
 
 
 

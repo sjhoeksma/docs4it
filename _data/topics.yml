@@ -22,9 +22,9 @@
   url:  '/principles/'
   introduction: We have defined some principles which may be handy.   
   
-- title:  News
+- title:  Tips & Tricks
   date:   2018-01-01 08:30:56
   category: News
-  image: '/assets/posts/news.jpg'
+  image: '/assets/posts/tips-tricks.jpg'
   url:  '/posts'
-  introduction: Some interesting news items arround cloud which i have not yet integrated into the side.
+  introduction: Some interesting tips & tricks which i have not yet integrated into the side.
