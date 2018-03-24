@@ -2,6 +2,7 @@
 
 title:  Cloud Portfolio Management
 date:   2018-01-01 08:30:56
+minutes: 15
 category: Strategy
 tags:
 - strategy

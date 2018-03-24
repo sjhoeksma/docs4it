@@ -3,6 +3,7 @@
 
     var post = document.querySelector('.post-content');
     var progressBar = document.querySelector('.progress-bar');
+    var scrollOffset = 330;
 
     if (post && progressBar) {
         var lastScrollTop = 0;
@@ -22,10 +23,9 @@
                 progressBar.style.bottom = '-100%';
             }
 
-            if (scrollTop <= maxScrollTop) {
-                var percentage = scrollTop/maxScrollTop;
-
-                var completedVal = (percentage * 100).toFixed(2);
+            if (scrollTop <= maxScrollTop-scrollOffset) {
+                var percentage = Math.max(Math.min(scrollTop/(maxScrollTop-scrollOffset),100),0);
+                var completedVal = Math.min((percentage * 100).toFixed(2),100);
                 var remainingVal = 100 - parseFloat(completedVal);
                 completed.style.width = completedVal.toString() + '%';
                 remaining.style.width = remainingVal.toString() + '%';
@@ -36,7 +36,7 @@
                 var completedMin = parseInt(completedTime/60);
                 var completedSec = parseInt((completedTime/60 - completedMin) * 60);
 
-                var remainingTime = totalSeconds - completedTime;
+                var remainingTime = Math.max(totalSeconds - completedTime,0);
                 var remainingMin = parseInt(remainingTime/60);
                 var remainingSec = parseInt((remainingTime/60 - remainingMin) * 60);
 
