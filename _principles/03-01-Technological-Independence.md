@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 permalink: /principles/application/
 title: Technological independence
 category: Application principles

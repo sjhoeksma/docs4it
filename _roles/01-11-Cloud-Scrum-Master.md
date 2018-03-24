@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Scrum Master
 duties: Guide the product delivery width the other Cloud resources.

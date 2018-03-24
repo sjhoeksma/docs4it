@@ -14,8 +14,9 @@ article {
   margin-top: 0.3rem;
 }
 
-section.content {
-  padding-top: 0.35rem;
+section {
+  margin: 2.5em auto;
+  max-width: $maxWidth;
 }
 
 h1 {
@@ -187,4 +188,9 @@ area:hover {
 .hidden {
   display: none;
 }
+ 
+.text-center {
+ text-align: center;
+}
+
 

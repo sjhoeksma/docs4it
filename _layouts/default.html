@@ -3,14 +3,37 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
-   {% include head.html %}
-    <body class="has-push-menu">
+<html lang="en" itemscope itemtype="http://schema.org/BlogPosting">
+    {% include head.html %}
+    <body class="{% if page.mainpage %}main-page{% endif %} has-push-menu">
         {% include svg-icons.html %}
-        {% include header.html %}
+         
+         {% if page.mainpage %}
+            {% include header.html backmenu=page.mainpage %} 
             <section class="content">
                 {{ content }}
-            </section>
-        {% include footer.html %}
+         {% else %}
+           {% include header.html sidemenu=site.usesidemenu backmenu=page.nobackmenu %}
+           <section class="post">
+
+             {% include minutes-to-read.html content=page.content %}
+
+             {% include article-{{ page.article | default: 'framework' }}.html %}
+
+             {% include paging.html %}
+
+             {% if site.showProgressBar and totalMinutes >= site.showProgressBar %}
+              <div class="progress-bar" data-minutes="{{ totalMinutes }}">
+                  <span class="time-completed"></span>
+                  <span class="time-remaining"></span>
+                  <div class="bar">
+                      <span class="completed" style="width:0%;"></span>
+                      <span class="remaining" style="width:100%;"></span>
+                  </div>
+              </div>
+            {% endif %}     
+        {% endif %}
+          {% include footer.html %}
+          </section>
     </body>
 </html>

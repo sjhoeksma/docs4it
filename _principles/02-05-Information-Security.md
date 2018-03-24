@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Information security
 category: Information principle
 description: Information is protected based on integrity, availability, confidentiality, incontestability, and authenticity. Every piece of information is submitted to a security assessment based on those five factors. Security traceability includes proper inception and application of the auditing system and monitoring tools.

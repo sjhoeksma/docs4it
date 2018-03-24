@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 permalink: /principles/information/
 title: Information treated as an asset
 category: Information principle

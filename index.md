@@ -1,10 +1,8 @@
 ---
-layout: main
-nobackmenu: true
+mainpage: true 
 ---
 
-<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-   <div class="index">
+<main class="home" >
     <div id="grid" class="row flex-grid float-right">
     {% for post in site.data.topics %}
         <article id="{{ post.title | remove: ' ' }}" class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
@@ -30,5 +28,4 @@ nobackmenu: true
         </article>
     {% endfor %}
     </div>	
-	</div>	 
 </main>

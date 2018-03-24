@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 title:  Cloud Indentity & Access Management
 date:   2018-01-01 08:30:56
 category: Strategy

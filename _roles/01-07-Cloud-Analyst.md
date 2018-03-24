@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Analyst
 duties: Perform targeted studies and evaluations to understand business outcome objectives; translate those objectives to a cloud strategy; and recommend cloud technology options to IT management that map to tangible infrastructure solutions.

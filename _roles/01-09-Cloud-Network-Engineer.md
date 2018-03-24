@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Network Engineer
 duties: "Implement, support, maintain, and optimize the network hardware, software, and communication links of the company's cloud infrastructure."

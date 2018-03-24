@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Engineer 
 duties: Plan and perform tasks related to implementation and maintenance of internal, enterprise-shared virtualization infrastructure.

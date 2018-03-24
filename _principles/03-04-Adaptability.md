@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Adaptability and flexibility
 category: Application principles
 description: IT systems are conceived to generate change, and they reflect alterations in laws, social needs, or other types of changes. Adaptability and flexibility reduce the complexity and promote integration, which improves the company's business activities. Excessive customization increases costs and reduces the ability to adapt.

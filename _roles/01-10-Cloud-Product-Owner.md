@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Product Manager
 duties: Perform product planning to help keep cloud-based offerings relevant and valuable to internal customers, including creating the product concept and strategy documents, updating requirement specifications, product positioning and sales process.

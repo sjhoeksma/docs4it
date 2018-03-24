@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title:  Compliance with standards and policies
 category: General principle
 description: Corporate information management processes must comply with all applicable internal policies and regulations.

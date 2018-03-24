@@ -1,5 +1,6 @@
 ---
-layout: principle
+layout: default
+article: principle
 title: Maximum benefits at the lowest costs and risks
 category: General principle
 description: Strategic decisions for solutions must always strive to maximize benefits generated for the business at the lowest long-term risks and costs.

@@ -1,6 +1,7 @@
 ---
+layout: blank
 ---
-
+  
 {% include_relative _js/safariapp.js %}
 {% include_relative _js/jquery-3.2.1.min.js %}
 

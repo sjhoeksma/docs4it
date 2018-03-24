@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 permalink: /principles/technology/
 title: Changes based on requirements
 category: Technology principles

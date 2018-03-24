@@ -1,5 +1,5 @@
 ---
-layout: framework
+layout: default
 hidetime: true
 title: Structure of principles
 permalink: /principles/

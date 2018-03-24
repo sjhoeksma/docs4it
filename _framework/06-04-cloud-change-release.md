@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 title:  Cloud Change and Release Management
 date:   2018-01-01 08:30:56
 category: Strategy

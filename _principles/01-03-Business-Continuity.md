@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title:  Business continuity
 category: General principle
 description: Corporate activities must be maintained, despite system interruptions.

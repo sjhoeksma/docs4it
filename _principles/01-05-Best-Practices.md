@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Adoption of the best practices for the market
 category: General principle
 description: IT activities must always be aligned with the best practices for the market regarding IT governance, processing, and management.

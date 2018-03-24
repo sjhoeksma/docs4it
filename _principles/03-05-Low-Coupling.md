@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Low-coupling interfaces
 category: Application principles
 description: Interfaces have low coupling, are self--described, and offer low impact on the financial institution in case of changes.

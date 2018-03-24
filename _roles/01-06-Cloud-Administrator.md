@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Systems Administrator
 duties: Configure and maintain the systems that comprise the underlying cloud platform, troubleshoot problems, and plan for future cloud capacity.

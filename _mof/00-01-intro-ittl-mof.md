@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 title:  Introduction to ITIL and MOF
 date:   2018-01-01 08:30:56
 category: Strategy

@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Back End Developer
 duties: Backend end  developer is responsible for getting the data from the back end and displaying it in a way that users can navigate through it and access the required information.

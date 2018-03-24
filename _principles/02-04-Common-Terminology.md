@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Common terminology and data definitions
 category: Information principle
 description: Data is defined coherently throughout the company, and definitions are comprehensible and accessible by all users.

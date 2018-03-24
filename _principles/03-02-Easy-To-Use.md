@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title:  Easy-to-use applications
 category: Application principles
 description: Applications are easy to use. The technology is transparent to users, so it enables them to concentrate on their tasks, rather than on system operation issues.

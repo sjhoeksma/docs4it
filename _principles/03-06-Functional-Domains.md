@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Adherence to functional domains
 category: Application principles
 description: The business rules and functionality of a system are consistent with the mission of that system. There is complete adherence to the functional domain in which the system is located.

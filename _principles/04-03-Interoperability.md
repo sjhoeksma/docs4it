@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Interoperability
 category: Technology principles
 description: Software and hardware must follow established standards that promote data, application, and technology interoperability.

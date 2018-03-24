@@ -4,6 +4,7 @@ html, body {
 .bar-header {
   background-color: $primaryDark;
   padding: .625rem 0rem;
+  margin-top: -40px;
   position: fixed;
   width: 100%;
   z-index: 10;

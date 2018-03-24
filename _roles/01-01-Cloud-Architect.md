@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Architect
 duties: Lead the creation and deployment of cloud-based systems that are scalable, secure, and aligned with company-wide business and IT objectives.

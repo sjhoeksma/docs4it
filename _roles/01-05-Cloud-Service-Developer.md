@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Service Developer
 duties: Specify, design and certify technology components that make up the underlying services deployed in the cloud for end users.

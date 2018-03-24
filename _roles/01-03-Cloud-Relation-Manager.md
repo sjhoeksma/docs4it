@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Relation Manager
 duties: Drum up outsourced cloud business with C-level professionals at mid-size and enterprise-level companies

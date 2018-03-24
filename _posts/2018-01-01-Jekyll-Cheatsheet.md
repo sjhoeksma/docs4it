@@ -1,5 +1,5 @@
 ---
-layout: post
+acticle: post
 title:  Jekyll & Liquid Cheatsheet
 image:  /assets/posts/jekyllrb.png
 date:   2014-04-06 15:40:56

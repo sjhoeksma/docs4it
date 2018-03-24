@@ -1,5 +1,5 @@
 ---
-layout: page
+mainpage: true
 title: ReadMe
 description: The ReadMe of CloudDocs.
 permalink: /about/
@@ -138,7 +138,7 @@ You theme is setup just like a normal Jelyll site! To test your theme, run `bund
 
 # License
 
-The template work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/). We used content from other public website and therefor included the link to the orignal materials as reference.
+We used a lot of content from public available sources, for which we have included a link to the orignal materials as reference. Any other material or the Jekyll templateis licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/). 
 
 [1]: http://jekyllrb.com
 [2]: http://pages.github.com/

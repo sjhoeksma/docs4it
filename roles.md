@@ -1,5 +1,5 @@
 ---
-layout: main
+mainpage: true
 permalink: /roles/
 references:
    - { title: 'Faces of cloud', url: 'https://blogs.vmware.com/accelerate/2013/02/is-your-organization-ready-for-the-software-defined-data-center.html' }

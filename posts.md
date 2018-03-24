@@ -1,5 +1,5 @@
 ---
-layout: submain
+mainpage: true
 ---
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">

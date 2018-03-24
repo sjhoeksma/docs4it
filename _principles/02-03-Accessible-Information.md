@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Accessible information
 category: Information principle
 description: Information is accessible for users to perform their respective duties.

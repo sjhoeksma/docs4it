@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Convergence with the enterprise architecture
 category: Application principles
 description: The convergence with the enterprise architecture is promoted in the right time, and in line with the company's investment strategy. The convergence with the enterprise architecture takes place as new applications are built, new technologies are implemented, and older systems are updated or decommissioned. Exceptions to the enterprise architecture might be supported for specific cases if there is a consensus that the benefits of using a solution from a specific technology exceed those arising from the adoption of the enterprise architecture.

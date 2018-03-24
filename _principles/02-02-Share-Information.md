@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Shared information
 category: Information principle
 description: Users have access to information that is necessary for performance of their respective tasks. Therefore, information is shared between different corporate areas and positions, depending on the security levels established for that particular set of information.

@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 title:  Cloud Operations
 date:   2018-01-01 08:30:56
 category: Strategy

@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 permalink: /principles/general/
 title: IT and business alignment
 category: General principle

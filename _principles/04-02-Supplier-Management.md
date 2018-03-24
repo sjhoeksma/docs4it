@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Control of technical diversity and suppliers
 category: Technology principles
 description: Technological diversity is controlled to minimize significant costs related to the maintenance of expertise and connectivity between several different processing environments. Supplier management must focus on the lowest number of suppliers possible to meet business needs and reduce risks.

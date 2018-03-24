@@ -22,6 +22,14 @@ showProgressBar: 1 #Time in minutes when progressbar shoud be shown
 
 # google_analytics: "UA-XXXXXXXX-X" # Add you google_analytics id if neede
 
+#Default values
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
 # Gems
 plugins:
 - jemoji
@@ -53,6 +61,9 @@ sass:
 collections:
   - principles
   - framework
+  - mof
+  - roles
+  - kpi
   
  
 collections:
@@ -71,6 +82,9 @@ collections:
   roles:
     output: true
     permalink: /:collection/:name
+  kpi:
+    output: true
+    permalink: /:collection/:name  
     
     
   

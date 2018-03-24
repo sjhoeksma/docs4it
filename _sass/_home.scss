@@ -4,7 +4,7 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
   color: white;
 }
 
@@ -13,10 +13,6 @@
     padding-top:0;
   }
 }
-
-@media only screen and (min-width: $cutoff) {
-  .content, main {
-    padding-top: 5.25rem; } }
 
 .row {
   width: auto;

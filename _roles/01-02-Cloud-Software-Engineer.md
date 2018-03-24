@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Software Engineer
 duties: Design and develop distributed software to integrate with the cloud service providers chosen by IT leadership.

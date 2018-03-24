@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Cloud Systems Engineer
 duties: "Build virtual systems to support the company's cloud implementation."

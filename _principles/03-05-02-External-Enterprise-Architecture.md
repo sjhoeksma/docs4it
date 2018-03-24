@@ -1,5 +1,5 @@
 ---
-layout: principle
+article: principle
 title: Enterprise architecture also applies to external applications
 category: Application principles
 description: As new outsourcing contracts and agreements are entered into, they must reflect and incorporate the enterprise architecture principles. This is one of the ways to keep enterprise architecture in line with the business. Outsourced activities must not be exceptions to the enterprise architecture simply because they are outsourced.

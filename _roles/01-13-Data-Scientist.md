@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 article: role
 role: Data Scientist
 duties: Data scientists deal with datasets that are far too large and complicated to open in Excel. Rather than limit themselves to tabs and sheets, data scientists use programming to work with whole databases that they manipulate to glean usable information.

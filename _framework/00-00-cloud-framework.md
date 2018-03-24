@@ -1,5 +1,5 @@
 ---
-layout: framework
+
 permalink: /framework/
 title:  Cloud Framework
 date:   2018-01-01 08:30:56
