@@ -1,5 +1,6 @@
 ---
 mainpage: true 
+nobackmenu: true
 ---
 
 <main class="home" >

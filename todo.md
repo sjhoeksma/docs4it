@@ -12,13 +12,11 @@
 * Popout with framework 
 * New Main page using Simple picture, Add Customer demand to this picture [Red customer]
 
-http://blog.lionbridge.com/enterprise-crowdsourcing/2013/07/22/managed-crowds-help-deliver-on-promise-of-business-crowdsourcing/
-http://www.opengroup.org/it4it/about
-https://www.consultancy.nl/nieuws/7178/atos-liquid-it-belangrijkste-megatrend-voor-cxos
-http://blog.lnsresearch.com/topic/information-technology
-PAGE :https://www2.deloitte.com/content/dam/Deloitte/nl/Documents/technology/deloitte-nl-digital-era-tom-v2.pdf 38 /55 
-
-
+* http://blog.lionbridge.com/enterprise-crowdsourcing/2013/07/22/managed-crowds-help-deliver-on-promise-of-business-crowdsourcing/
+* http://www.opengroup.org/it4it/about
+* https://www.consultancy.nl/nieuws/7178/atos-liquid-it-belangrijkste-megatrend-voor-cxos
+* http://blog.lnsresearch.com/topic/information-technology
+* PAGE :https://www2.deloitte.com/content/dam/Deloitte/nl/Documents/technology/deloitte-nl-digital-era-tom-v2.pdf 38 /55 
 * Directory for Collections : https://github.com/jekyll/jekyll/issues/2518
 * Admin: https://blog.webjeda.com/jekyll-admin/
 * Grid: http://js-grid.com/
