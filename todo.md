@@ -11,6 +11,10 @@
 * Add Slide for Service Catalog and link all together on base sevices
 * Popout with framework 
 * New Main page using Simple picture, Add Customer demand to this picture [Red customer]
+* Fix Scroll Top of Progressbar.js
+* Add Section on requirements
+* Add Section on Services (Security is part of this)
+* Create as small javascript that will update KPI based on json file
 
 * http://blog.lionbridge.com/enterprise-crowdsourcing/2013/07/22/managed-crowds-help-deliver-on-promise-of-business-crowdsourcing/
 * http://www.opengroup.org/it4it/about

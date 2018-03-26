@@ -24,8 +24,8 @@
     </p>
 
     <div id="grid" class="row flex-grid">
-      <div  class="box-item green-box" >
-        <h3 class="post-title" itemprop="name">Rationale</h3>
+      <div class="box-item green-box" >
+        <h3 class="post-title" >Finance</h3>
         {% capture alen %}{{ page.rationale | size }}{% endcapture %}
         {% if alen == '1' %}
            {{ page.rationale }}
@@ -37,8 +37,27 @@
         </lu>
         {% endif %}
       </div>
-      <div class="box-item red-box">
-       <h3 class="post-title" itemprop="name">Implications</h3> 
+      
+      <div  class="box-item red-box">
+       <h3 class="post-title" >Employee</h3> 
+       <lu >
+        {% for line in page.implications %}
+        <li >{{line}}</li>
+        {% endfor %}
+        </lu>
+      </div>
+      
+      <div  class="box-item purple-box">
+       <h3 class="post-title" >Customer</h3> 
+       <lu >
+        {% for line in page.implications %}
+        <li >{{line}}</li>
+        {% endfor %}
+        </lu>
+      </div>
+      
+      <div  class="box-item blue-box">
+       <h3 class="post-title" >Internal</h3> 
        <lu >
         {% for line in page.implications %}
         <li >{{line}}</li>

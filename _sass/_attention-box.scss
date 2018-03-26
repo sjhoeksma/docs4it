@@ -1,0 +1,49 @@
+.attention-box {
+
+  .box-item {
+    background-color: #f1f1f1;
+    padding: 1em;
+    z-index: 0;
+  }
+  
+  @media only screen and (min-width: $cutoff) {
+  .box-item {
+    min-width: 25em;
+   } }
+
+  p.subtitle {
+    color: #85144B;
+  }
+  
+  h3 {
+    padding: 0;
+  }
+  
+  li {
+    padding-left: 1em;
+    text-indent: -1em;
+    padding: .825rem 0 0 1.25rem;
+  }
+  
+  @media only screen and (min-width: $cutoff) {
+  .bar-header .dosearch {
+    margin: 0 1.25rem 0 0; } }
+
+    
+  .red-box {
+    border-left: 5px solid  crimson; 
+  }
+  
+  .green-box {
+    border-left: 5px solid  darkseagreen;
+  }
+  
+  .purple-box {
+    border-left: 5px solid  purple;
+  }
+  
+  .blue-box {
+    border-left: 5px solid  blue;
+  }
+  
+}

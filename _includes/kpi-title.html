@@ -1,0 +1,54 @@
+{% assign tar=include.page.target | default: page.target | default: 1 %}
+{% assign percentage= include.page.actual | default: page.actual | times: 100 | divided_by: tar | default: 0 | round: 0 %}
+{% assign l1= include.page.low | default: page.low | default: 50 %}
+{% assign l2= include.page.below | default: page.below |  default: 75 %}
+{% assign l3= include.page.norm | default: page.norm |  default: 125 %}
+{% assign l4= include.page.above | default: page.above |  default: 150 %}
+
+{% if percentage == 0 %}
+   {% assign stage="zero" %}
+{% elsif percentage < l1  %}
+   {% assign stage="below" %}                       
+{% elsif percentage < l2  %}
+   {% assign stage="risk" %}
+{% elsif percentage < l3 %}
+   {% assign stage="norm" %}
+{% elsif percentage < l4 %}
+   {% assign stage="risk" %} 
+{% else %}
+   {% assign stage="below" %} 
+{% endif %}        
+
+
+<li class="kpi-item" onclick="location.href='{{include.page.url | default: page.url}}'"> 
+    <span class="kpi-name">
+      {{ include.page.title | default: page.title}}
+    </span>
+    
+    <span class="kpi-country grid-only">
+      {{ include.page.unit | default: page.unit}}
+    </span>
+    
+    <div class="pull-right">
+      
+      <span class="kpi-progress">
+        <span class="kpi-progress-bg">
+          <span class="kpi-progress-fg {{stage}}" style="width: {{percentage}}%;"></span>
+        </span>
+        
+        <span class="kpi-progress-labels">
+          <span class="kpi-progress-label {{stage}}">
+            {{percentage}}%
+          </span>
+
+        </span>
+      </span>
+      
+       <span class="kpi-completes">
+         {{ include.page.actual | default: page.actual }} /  {{ include.page.target | default: page.target }}
+      </span>
+      <span class="kpi-stage">
+          <span class="stage {{stage}}" ></span>     
+      </span>
+    </div>
+</li>

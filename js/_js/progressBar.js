@@ -3,7 +3,7 @@
 
     var post = document.querySelector('.post-content');
     var progressBar = document.querySelector('.progress-bar');
-    var scrollOffset = 330;
+    var scrollOffset = 350;
 
     if (post && progressBar) {
         var lastScrollTop = 0;

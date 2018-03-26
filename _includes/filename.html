@@ -1,0 +1,2 @@
+{% assign filename = include.path | default: page.path | split:'/' | last | replace: '.html','' | replace: '.md' %}
+{% assign filelevel = filename | split: '-' | first) %}

@@ -1,0 +1,316 @@
+/*
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+*/
+
+$primary-text-color: #000;
+$secondary-text-color: #A1A1A4;
+$theme-color: #8DC63F; 
+  
+* {
+  box-sizing: border-box;
+}
+
+.kpi {
+
+.kpis {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+%card-style {
+  display: block;
+  text-indent: 0em;
+  border-radius: 2px;
+  
+  background: white;
+  box-shadow: 0 2px 1px rgba(170,170,170,0.25);  
+}
+
+.kpi-item {
+  @extend %card-style;
+}
+
+.kpi-name {
+  font-weight: 400;
+}
+
+.kpi-progress-fg.zero, span.stage.zero {
+    background: gray;
+}  
+.kpi-progress-fg.below, span.stage.below {
+    background: red;
+} 
+.kpi-progress-fg.risk, span.stage.risk {
+    background: orange;
+}    
+.kpi-progress-fg.norm, span.stage.norm {
+    background: $theme-color;
+} 
+.kpi-progress-label.zero {
+   color:gray; 
+}
+.kpi-progress-label.below {
+   color:red; 
+}
+.kpi-progress-label.risk {
+   color:orange; 
+}
+.kpi-progress-label.norm {
+   color:$theme-color;
+}
+
+
+  
+.list {
+  .kpi-item {
+    position: relative;
+    padding: 0;
+
+    font-size: 14px;
+    line-height: 40px;
+    
+    .pull-right {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    
+    @media screen and (max-width: 700px) {
+      .kpi-progress-bg {
+        display: none;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .pull-right {
+        position: static;
+        line-height: 20px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  
+  .kpi-country,
+  .kpi-progress,
+  .kpi-completes,
+  .kpi-end-date {
+    color: $secondary-text-color;
+  }
+  
+  .kpi-country,
+  .kpi-completes,
+  .kpi-end-date,
+  .kpi-name,
+  .kpi-stage {
+    margin: 0 10px;
+  }
+  
+  .kpi-country {
+    margin-right: 0;
+  }
+  
+  
+  .kpi-end-date,
+  .kpi-completes,
+  .kpi-country,
+  .kpi-name {
+    vertical-align: middle;
+  }
+  
+  .kpi-end-date {
+    display: inline-block;
+    width: 100px;
+    white-space: nowrap;
+    
+    overflow: hidden;
+  }
+}
+
+.kpi-stage .stage {
+  display: inline-block;
+  vertical-align: middle;
+
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 2px;
+
+  background: #f2f2f2;
+  text-indent: -9999px;
+  color: transparent;
+  line-height: 16px;
+
+  &.active {
+    background: $secondary-text-color;
+  }
+}
+
+.list {
+  .list-only {
+    display: auto;
+  }
+  .grid-only {
+    display: none !important;
+  }
+}
+
+.grid {
+  .grid-only {
+    display: auto;
+  }
+  .list-only {
+    display: none !important;
+  }
+}
+
+.grid {
+  .kpi-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 100px;
+    min-width: 200px;
+    margin: 3px ;
+  }
+  
+  .kpi-name {
+    display: block;
+    max-width: 80%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .kpi-country {
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  
+  .kpi-country,
+  .kpi-end-date {
+    color: $secondary-text-color;
+  }
+  
+  .kpi-end-date {
+    &:before {
+      content: 'Ends\00a0';
+    }
+    
+    &.ended:before {
+      content: 'Ended\00a0';
+    }
+  }
+  
+  .kpi-progress {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #eee;
+    font-size: 13px;
+  }
+  
+  .kpi-progress-bg {
+    display: block;
+  
+    @media screen and (max-width: 200px) {
+      display: none;
+    }
+  }
+  
+  .kpi-progress-labels {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    line-height: 40px;
+  
+    @media screen and (max-width: 200px) {
+      right: auto;
+      left: 10px;
+    }    
+  }
+  
+  .kpi-progress-label {
+    line-height: 21px;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    text-align: right;
+    top: 0px;
+    right: -15px;
+  }
+  
+  .kpi-completes {
+    line-height: 21px;
+    font-size: 13px;
+    position: absolute;
+    top: 55px;
+    left: 20px;
+  }  
+  
+  .kpi-country {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+  }
+  
+  .kpi-stage {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    
+    .stage {
+      display: block;
+    }
+   
+  }
+  
+  .kpi-end-date {
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 20px;
+  }
+}
+
+.kpi-progress-label {
+  vertical-align: middle;
+  margin: 0 10px;
+  color: $theme-color;
+}
+
+.kpi-progress-bg {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  //margin-right: 45px;
+  height: 4px;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #eee;
+}
+
+.kpi-progress-fg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  background: $theme-color;
+}
+  
+}
+
