@@ -1,5 +1,5 @@
 ---
-title: IT as a Service
+title: Documents for IT
 overviewmap:
  - {name: 'Business' , coord: '4,5,232,79', href: '/framework/01-00-cloud-business' }
  - {name: 'People' , coord: '4,171,232,242', href: '/framework/02-00-cloud-people' }
@@ -9,11 +9,11 @@ references:
 - {title: 'IT as a Service', url: 'https://www.emc.com/collateral/software/white-papers/h10801-stepstoitaas-wp.pdf'}
 ---
 
-<div id="textgrid" class="row flex-grid float-right">
+<div id="textgrid" class="row flex-grid">
 <div class="box-item">
-{% include image.html image="assets/framework/overview.png" imagemap=page.overviewmap class="width-default" %}
+{% include image.html image="assets/framework/overview.png" imagemap=page.overviewmap class="width-default" hideclickable=false %}
 </div>  
-<div class="box-item">
+<div class="box-item box-item-grow-20" markdown="1">
 **Introduction-** There is a lot of information available on internet about the Digital Transformation of IT. But what I found out in the many years i worked as a business alignment manager between the Business and IT that is is important to tell the whole story. On this site i have bundeld all information i collected in the year into one (for me) consistant story. 
 </div>  
 

@@ -11,8 +11,6 @@ introduction: Addresses the organization’s capability to measure and optimize 
 ---
 
 {{ page.introduction }}
-Cloud services offer the potential for organizations to rapidly experiment with
+Services offer the potential for organizations to rapidly experiment with
 new means of process automation and optimization. Leveraging this potential
-requires new skills and processes to define cloud-centric Key Performance
-Indicators (KPIs) and create processes to ensure cloud consumption is mapped
-to business outcomes.
+requires new skills and processes to define [Key PerformanceIndicators](/kpi/) (KPIs) and create processes to ensure consumption is mapped to business outcomes.

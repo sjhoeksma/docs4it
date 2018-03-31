@@ -16,7 +16,9 @@
               />
           {% endfor %}
           </map>
+        {% if include.hideclickable!=true %}
         <span class="post-info float-right">*Clickable</span>
+        {% endif %}
    {% else %}
     >
   {% endif %}
