@@ -1,11 +1,11 @@
 # Setup
-name:         Cloud Docs
+name:         docs4IT
 creator:      Sierk Hoeksma
 creator_url:  https://sjhoeksma.github.com 
 about_img:  /img/clouddocs.jpeg
-title:        CloudDocs
-description:  How to do Cloud
-email: 	      sjhoeksma@gmail.com
+title:        docs4IT
+description:  A collections of documents which can be handy for ITHow to do Cloud
+email: 	      info@docs4.it
 locale:       "en"
 timezone:     Europe/Amsterdam
 baseurl:      ""
@@ -17,7 +17,7 @@ showProgressBar: 1 #Time in minutes when progressbar shoud be shown
 # The algolia search engine
 #algolia:
 #  application_id: '0DX4FSFFQY'
-#  index_name:     'clouddocs'
+#  index_name:     'doc4it'
 #  search_only_api_key: '6ab3a2fe1b9e6a97c87f7e8824c7f3a4'
 
 # google_analytics: "UA-XXXXXXXX-X" # Add you google_analytics id if neede
@@ -90,8 +90,8 @@ collections:
   
   
 # User Settings
-username: CloudDocs
-user_description: Cloud Docs.
+username: docs4IT
+user_description: docs4IT.
 disqus_username: cf_username
 
 # Social Media

@@ -1,8 +1,3 @@
-- title:  KPI
-  category: KPI
-  image: '/assets/kpi/kpi.jpg'
-  url:  '/kpi/'
-  introduction: A simply way to show you kpi in a single dashboard
 
 - title:  IT Framework
   category: Strategy
@@ -34,3 +29,9 @@
   image: '/assets/posts/tips-tricks.jpg'
   url:  '/posts'
   introduction: Some interesting tips & tricks which i have not yet integrated into the side.
+  
+- title:  KPI
+  category: KPI
+  image: '/assets/kpi/kpi.jpg'
+  url:  '/kpi/'
+  introduction: A simply way to show you kpi in a single dashboard

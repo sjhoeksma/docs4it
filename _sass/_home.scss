@@ -73,24 +73,26 @@
 @media only screen and (min-width: $cutoff) {
   .box-item {
     margin: 0 .938rem 1.875rem; } }
-.box-item:hover {
+
+
+.box-item.hover:hover {
   z-index: 2;
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
 
-.box-item:hover img {
+.box-item.hover:hover img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   -webkit-transform: scale(1.05);
   transform: scale(1.05); }
 
-.box-item:hover time, .box-item:hover .box-body time, .box-item:hover .box-body p {
-  color: #fff; }
+.box-item.hover:hover time, .box-item.hover:hover .box-body time, .box-item.hover:hover .box-body p {
+  color: black; }
 
-.box-item:hover .box-body .new-post:after {
+.box-item.hover:hover .box-body .new-post:after {
   background-color: #000; }
 
-.box-item:hover .box-body .cover a:before {
+.box-item.hover:hover .box-body .cover a:before {
   -ms-filter: none;
   -webkit-filter: none;
   filter: none;

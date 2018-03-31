@@ -14,25 +14,8 @@
 
   </h1>
   <p itemprop="description" class="subtitle">{{ page.description }}
-    {% if page.image %}
-      <img src="{{ page.image }}" class="post-cover" 
-      {% if page.imagemap %}
-              usemap="#main-image" >
-              <map name="main-image">
-              {% for s in page.imagemap %}
-                  <area shape="{{ s.shape | default: 'rect' }}" coords="{{ s.coord }}" 
-                        href="{{ s.href }}" 
-                        alt="{{ s.name }}" title="{{ s.name }}"
-                        {{ s.option }}
-                  />
-              {% endfor %}
-              </map>
-            <span class="post-info float-right">*Clickable</span>
-       {% else %}
-        >
-       {% endif %}
-    {% endif %}
-    </p> 
+    {% include image.html image=page.image imagemap=page.imagemap %}
+  </p> 
 
    {{ include.content | default: page.content }}
 </article>

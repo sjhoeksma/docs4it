@@ -16,9 +16,9 @@ layout: compress
            {% include header.html sidemenu=site.usesidemenu backmenu=page.nobackmenu %}
            <section class="post">
 
-             {% include minutes-to-read.html content=page.content %}
+             {% include minutes-to-read.html content=content %}
 
-             {% include article-{{ page.article | default: 'framework' }}.html %}
+             {% include article-{{ page.article | default: 'framework' }}.html content=content %}
 
              {% include paging.html %}
 

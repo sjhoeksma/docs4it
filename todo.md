@@ -15,6 +15,7 @@
 * Add Section on requirements
 * Add Section on Services (Security is part of this)
 * Create as small javascript that will update KPI based on json file
+* Background for post text with white background are hidden when mouse over
 
 * http://blog.lionbridge.com/enterprise-crowdsourcing/2013/07/22/managed-crowds-help-deliver-on-promise-of-business-crowdsourcing/
 * http://www.opengroup.org/it4it/about
