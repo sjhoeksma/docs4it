@@ -3,12 +3,14 @@
     document.body.classList.add('sidemenu');
   </script>
   <nav id="navigation">
-    <h2>{{ site.name }}</h2>
+    <h2 onclick="javascript:location.href='/'">{{ site.menuname| default: site.name }}</h2>
       <ul>
+        {% if page.id  %}
         <li><a href="/">
           <i class="fa fa-home"></i>
           Home
         </a></li>
+        {% endif %}
         {% assign pagename= page.url | split: "/" | last %}
         {% if  page.:collection and page.:collection != pagename  %} 
         <li><a href="{{ page.:collection | prepend: '/' | prepend: site.baseurl }}">

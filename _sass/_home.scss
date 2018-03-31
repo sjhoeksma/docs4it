@@ -62,13 +62,16 @@
   -ms-flex: 1 0 300px;
   -webkit-box-flex: 1;
   flex: 1 0 300px;
-  margin: 0 0 1.875rem;
   display: inline-block;
   min-height: 15.813rem;
   -webkit-transition: all .3s;
   transition: all .3s;
   position: relative;
   z-index: 1; }
+
+.box-item.hover {
+   margin: 0 0 1.875rem;
+}
 
 .box-item-grow-5 {
   -webkit-flex-grow: 5; /* Safari 6.1+ */
@@ -91,14 +94,14 @@
 
 
 @media only screen and (min-width: $cutoff) {
-  .box-item {
+  .box-item.hover {
     margin: 0 .938rem 1.875rem; } }
 
 
 .box-item.hover:hover {
   z-index: 2;
   -webkit-transform: scale(1.1);
-  transform: scale(1.1); }
+  transform: scale(1.1);}
 
 .box-item.hover:hover img {
   -webkit-filter: grayscale(100%);

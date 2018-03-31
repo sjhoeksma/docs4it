@@ -1,14 +1,14 @@
-- title:  IT Governance
+- title: Governance
   category: Governance
   image: '/assets/framework/framework.png'
   url:  '/framework/'
   introduction: Information about a usefull governance framework for IT. We use this framework to give guidance on how IT can be implemented within your organisation.
   
-- title:  Digital Transformation Strategy
+- title:  Digital Transformation
   category: Strategy
   image: '/assets/framework/strategy.png'
-  url:  '/framework/01-02-strategy.md'
-  introduction: Digital Transformation 
+  url:  '/framework/01-02-strategy'
+  introduction: A helpfull strategy on Digital Transformation 
   
 - title: Guiding Principles
   category: Principles

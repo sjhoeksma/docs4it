@@ -1,7 +1,7 @@
 ---
 
 permalink: /framework/
-title:  Cloud Framework
+title:  Governance
 date:   2018-01-01 08:30:56
 category: Strategy
 image: '/assets/framework/framework.png'
@@ -29,7 +29,7 @@ imagemap:
  - {name: 'Database',coord: '921,476,1150,621', href: '/framework/04-04-database'}
  - {name: 'Architecture',coord: '1150,476,1378,621', href: '/framework/04-05-architecture'}
  - {name: 'Development',coord: '1378,476,1607,621', href: '/framework/04-06-development'}
- - {name: 'Indentity', coord: '233,622,460,775', href: '/framework/05-01-indentity' }
+ - {name: 'Identity', coord: '233,622,460,775', href: '/framework/05-01-identity' }
  - {name: 'Detection', coord: '461,622,690,775', href: '/framework/05-02-detection'}
  - {name: 'Hardening', coord: '691,622,920,775', href: '/framework/05-03-hardening'}
  - {name: 'Data-Privacy',coord: '921,622,1150,775', href: '/framework/05-04-data-privacy'}
@@ -44,7 +44,7 @@ imagemap:
 tags:
 - strategy
 - cloud
-introduction: The Cloud Framework organizes guidance into six areas of focus, which span the entire organization. We describe these areas of focus as Perspectives. Perspectives each encompass distinct responsibilities owned or managed by functionally related stakeholders. 
+introduction: The Governance Framework organizes guidance into six areas of focus, which span the entire organization. We describe these areas of focus as Perspectives. Perspectives each encompass distinct responsibilities owned or managed by functionally related stakeholders. 
 mermaid: false
 references: 
 - {title: 'AWS Clould Adoption Framework', url: 'https://d0.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf'}

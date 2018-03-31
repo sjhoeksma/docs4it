@@ -1,6 +1,6 @@
 ---
 
-title:  Cloud Portfolio Management
+title:  Portfolio Management
 date:   2018-01-01 08:30:56
 minutes: 15
 category: Strategy
@@ -8,17 +8,17 @@ tags:
 - strategy
 - cloud
 - process
-introduction: Focuses on your organization’s capability to manage and prioritize IT investments, programs, and projects in alignment with your organization’s business goals.
+introduction: Focuses on your organizations capability to manage and prioritize IT investments, programs, and projects in alignment with your organizations business goals.
 references:
  - { url: 'https://www.itforbusiness.org/book/project-and-development-management/overview/' , title: 'IT for Business'}
 ---
 
 {{ page.introduction }}
-Portfolio Management is an important mechanism for determining cloudeligibility
-for workloads and for prioritizing the move to cloud services. It serves
-as a focal point for lifecycle management of both applications and services.
-Teams will need to develop new skills and processes to evaluate cloud services
-and a workload’s eligibility for the cloud.
+Portfolio Management is an important mechanism for determining eligibility
+for workloads and for prioritizing services delivery. It serves
+as a focal point for life cycle management of both applications and services.
+Teams will need to develop new skills and processes to evaluate services
+and a workloads eligibility.
 
 ![portfolio](/assets/framework/portfolio.png)
 
