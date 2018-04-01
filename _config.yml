@@ -3,7 +3,8 @@ name:         docs4IT
 menuname:     DOCS<br>4 IT
 creator:      Sierk Hoeksma
 creator_url:  https://sjhoeksma.github.com 
-about_img:  /img/clouddocs.jpeg
+about_img:  /img/doc4it.png
+logo:  /img/icons/apple-touch-icon-57x57.png
 title:        docs4IT
 description:  A collections of documents which can be handy for ITHow to do Cloud
 email: 	      info@docs4.it

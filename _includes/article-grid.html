@@ -1,0 +1,38 @@
+{% assign articles=include.articles | defaults page.articles %}
+
+<main class="home" >
+    <div id="grid" class="row flex-grid float-right">
+    {% for article in articles %}
+      {%if include.layout %}
+       {% include article-{{include.layout}}.html article=article preload=include.preload class=include.class %}
+      {% else %}
+        <article class="box-item hover {{include.class}}" >
+            <span class="category">
+                <a href="{{ article.url | prepend: site.baseurl }}">
+                    <span class="float-left">{{ article.title }}</span>
+                </a>
+            </span>
+            <div class="box-body">
+                {% if article.image %}
+                    <div class="cover">
+                        <a href="{{ article.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
+                          {% if include.preload %}
+                            <img src="/img/placeholder.png" data-url="{{ article.image }}" class="preload" >
+                          {% else %}
+                           <img src="{{ article.image }}" >
+                          {% endif %}
+
+                        </a>
+                    </div>
+                {% endif %}
+                <div class="box-info">
+                    <a class="post-link" href="{{ article.url | prepend: site.baseurl }}">
+                        <p class="description">{{ article.introduction }}</p>
+                    </a>
+                </div>
+            </div>
+        </article>
+      {% endif %}
+    {% endfor %}
+    </div>	
+</main>

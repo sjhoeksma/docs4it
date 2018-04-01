@@ -2,20 +2,21 @@
 * Principles = Principle slide
 * Create a one page to combine all pages of collections in one (easy printing)
 * soundex
-* regex search
-* replace zoid with jquerty
 * add project intake template and total project document
 * Processes
 * KPI - Add a simple interface for adding KPI Tilte + Details including URL to JSON data
 * Add missing framework peices and remove cloud tagging
-* Add Slide for Service Catalog and link all together on base sevices
+* Add Slide for Service Catalog and link all together on base sevices, add risk element to service
+* Service should be divided into End-User, Business, Governance & Compliance
+* Add Section on requirements
+* Add Section on Services (Security is part of this)
 * Popout with framework 
 * New Main page using Simple picture, Add Customer demand to this picture [Red customer]
 * Fix Scroll Top of Progressbar.js
-* Add Section on requirements
-* Add Section on Services (Security is part of this)
 * Create as small javascript that will update KPI based on json file
-* Background for post text with white background are hidden when mouse over
+* Add a single page explaining the whole concept, linking to documents
+* Add Risk assesment Excel
+
 
 * http://blog.lionbridge.com/enterprise-crowdsourcing/2013/07/22/managed-crowds-help-deliver-on-promise-of-business-crowdsourcing/
 * http://www.opengroup.org/it4it/about

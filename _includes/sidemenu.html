@@ -3,7 +3,14 @@
     document.body.classList.add('sidemenu');
   </script>
   <nav id="navigation">
-    <h2 onclick="javascript:location.href='/'">{{ site.menuname| default: site.name }}</h2>
+    {% if site.logo %}
+     <a href="/">
+          <img src="{{site.logo}}">
+      </a>
+    <h2></h2>
+    {% else %}
+     <h2 onclick="javascript:location.href='/'">{{ site.menuname| default: site.name }}</h2>
+    {% endif %}
       <ul>
         {% if page.id  %}
         <li><a href="/">
