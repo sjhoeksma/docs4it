@@ -1,5 +1,6 @@
 ---
 title:  Tickets out of Bounds
+article: kpi
 category: KPI
 tags:
 - strategy
@@ -10,7 +11,6 @@ target: 12500
 unit: Tickets
 ---
 
-# Mini Tile
 {{ page.goal }}
 
 ## How is KPI calculated

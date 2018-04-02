@@ -1,5 +1,6 @@
 ---
 title:  Budget KPI
+article: kpi
 category: KPI
 tags:
 - strategy
@@ -9,8 +10,7 @@ actual: 80
 target: 125
 unit: €
 ---
-
-# Mini Tile
+  
 {{ page.goal }}
 
 ## How is KPI calculated

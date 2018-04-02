@@ -55,7 +55,7 @@
     </p>
 	  <p>
         {% for link in site.links %}
-          <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>&nbsp;
+          <a href="{{ link.url }}">{{ link.title }}</a>&nbsp;
         {% endfor %}
 		<br>	
       <span>{{ site.name }}</span> was made by <a href="{{ site.creator_url }}" target="_blank" class="creator">{{ site.creator }}</a>

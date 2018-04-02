@@ -1,5 +1,6 @@
 ---
 title:  Revenu
+article: kpi
 category: KPI
 tags:
 - strategy
@@ -7,7 +8,6 @@ tags:
 goal: Ensure we stay inside our goals we set for ticket processing
 ---
 
-# Mini Tile
 {{ page.goal }}
 
 ## How is KPI calculated

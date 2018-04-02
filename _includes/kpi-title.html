@@ -20,7 +20,7 @@
 {% endif %}        
 
 
-<li class="kpi-item" onclick="location.href='{{include.page.url | default: page.url}}'"> 
+<li class="kpi-item {{ include.class }}" onclick="location.href='{{include.page.url | default: page.url}}'"> 
     <span class="kpi-name">
       {{ include.page.title | default: page.title}}
     </span>

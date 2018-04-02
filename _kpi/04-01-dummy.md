@@ -1,5 +1,6 @@
 ---
 title:  Dummy second line yess
+article: kpi
 category: KPI
 tags:
 - strategy
@@ -10,7 +11,6 @@ target: 12500
 unit: €
 ---
 
-# Mini Tile
 {{ page.goal }}
 
 ## How is KPI calculated
