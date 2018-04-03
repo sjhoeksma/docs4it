@@ -1,12 +1,10 @@
 ---
-
-title:  Cloud Strategy
+title:  IT Strategy
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
-introduction: Cloud services provide efficiencies that reduce the need to maintain applications, enabling IT to focus on business alignment. 
+introduction: IT services provide efficiencies that reduce the need to maintain applications, enabling IT to focus on business alignment. 
 references:
  - { url: 'https://machine2twomachine.wordpress.com/2011/08/04/hello-world/', title: 'What is Cloud Service Broker' }
  - { url: 'https://www.itforbusiness.org' , title: 'IT for Business'}

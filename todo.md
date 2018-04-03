@@ -1,3 +1,4 @@
+# Code Fixes
 * Check for better compress
 * Principles = Principle slide
 * Create a one page to combine all pages of collections in one (easy printing)
@@ -14,10 +15,15 @@
 * New Main page using Simple picture, Add Customer demand to this picture [Red customer]
 * Fix Scroll Top of Progressbar.js
 * Create as small javascript that will update KPI based on json file
+
+# Documentation additions
 * Add a single page explaining the whole concept, linking to documents
-* Add Risk assesment Excel
+* Add Risk assessment Excel
+* Add ISO Excel
+* Add plan for BCM
 
 
+# Links to check
 * http://blog.lionbridge.com/enterprise-crowdsourcing/2013/07/22/managed-crowds-help-deliver-on-promise-of-business-crowdsourcing/
 * http://www.opengroup.org/it4it/about
 * https://www.consultancy.nl/nieuws/7178/atos-liquid-it-belangrijkste-megatrend-voor-cxos

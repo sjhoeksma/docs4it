@@ -1,13 +1,11 @@
 ---
-
-title:  Cloud Service Catalog
+title:  Service Catalog
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 - process
-introduction: IT Service Catalog is the organization’s capability to select, maintain, advertise, and deliver an SLA or set of IT services.
+introduction: IT Service Catalog is the organisation capability to select, maintain, advertise, and deliver an SLA or set of IT services.
 ---
 
 {{ page.introduction }}

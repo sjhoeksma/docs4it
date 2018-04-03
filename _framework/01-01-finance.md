@@ -1,13 +1,11 @@
 ---
-
-title:  Cloud Finance
+title:  Finance
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 - process
-introduction: Addresses the organization’s capability to plan, allocate, and manage the budget for IT expenses given changes introduced with the cloud services consumption model.
+introduction: Addresses the organisation capability to plan, allocate, and manage the budget for IT expenses given changes introduced with a services consumption model.
 ---
 
 {{ page.introduction }}
@@ -22,7 +20,7 @@ consumption with new details, which creates new opportunities to associate
 costs with results.
 
 ## Cost Elements for Agile Teams
-When using cloud you probally will introduce agile teams. The advantage of Agile teams is that there cost are predicatable. ![Agile Cost Elements](/assets/framework/agilecostelements.png)
+When using cloud you probably will introduce agile teams. The advantage of Agile teams is that there cost are predictable. ![Agile Cost Elements](/assets/framework/agilecostelements.png)
 
 ## Cost Control for Agile Teams
 As stated the one of the advantages of Agile Teams is cost control, the burn rate is stable so if you get a stable income the finacial out come is predicatable.
@@ -36,6 +34,6 @@ If we take the assumption that the agile team in average will spend 32% of there
 
 Using a battery model we can evaluate if the agile team will break even at the end of FYI.
 
-Compute resources are always charged directly to the functions and therefor don’t need to be part of the battery model
+Compute resources are always charged directly to the functions and therefor don't need to be part of the battery model
 
 

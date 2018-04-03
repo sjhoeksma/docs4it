@@ -1,13 +1,12 @@
 ---
 
-title:  Cloud Architecture
+title:  Architecture
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 - architecture
-introduction: Encompasses the organization’s capability to define and describe the design of a system and to create architecture standards for the organization.
+introduction: Encompasses the organisation capability to define and describe the design of a system and to create architecture standards for the organisation.
 references: 
 - {title: 'Architecture For Dummies', url: 'http://www.dummies.com/programming/networking/it-architecture-for-dummies-cheat-sheet/'}
 ---

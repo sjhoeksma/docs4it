@@ -1,13 +1,11 @@
 ---
-
-title:  Cloud Organisational Change Management
+title: Organisational Change Management
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 - process
-introduction: Focuses on the organization’s capability to manage the effects and impacts of business, structural, and cultural change introduced with cloud adoption.
+introduction: Focuses on the organisation capability to manage the effects and impacts of business, structural, and cultural change introduced with cloud adoption.
 ---
 
 {{ page.introduction }}

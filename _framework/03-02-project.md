@@ -1,13 +1,11 @@
 ---
-
-title:  Cloud Project Management
+title:  Project Management
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 - process
-introduction: Addresses the organization’s capability to manage one or several related projects to improve organizational performance and complete the projects on time and on budget. 
+introduction: Addresses the organisation capability to manage one or several related projects to improve organisational performance and complete the projects on time and on budget. 
 ---
 
 {{ page.introduction }}

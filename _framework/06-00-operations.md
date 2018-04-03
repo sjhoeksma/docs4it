@@ -1,11 +1,9 @@
 ---
-
-title:  Cloud Operations
+title:  Operations
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 introduction: Helps stakeholders understand how to update staff skills and organizational processes necessary to ensure system health and reliability through the move to the cloud, and as an agile, ongoing, cloud computing best practice.
 
 ---

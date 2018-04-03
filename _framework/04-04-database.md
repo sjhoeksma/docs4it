@@ -1,13 +1,12 @@
 ---
-
-title:  Cloud Database Provisioning
+title:  Database Provisioning
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
 - cloud
 - provisioning
-introduction: Addresses the organization’s capability to providedatabase and database management systems in support of enterprise applications.
+introduction: Addresses the organisation capability to provide database and database management systems in support of enterprise applications.
 references:
 - {title: 'SQL Server Database Provisioning', url: 'https://www.red-gate.com/simple-talk/sql/database-delivery/sql-server-database-provisioning/'}
 ---

@@ -1,13 +1,11 @@
 ---
-
-title:  Cloud Training Management
+title:  Training Management
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 - process
-introduction: Addresses the organization’s capability to ensure employees have the knowledge and skills necessary to perform their roles and comply with organizational policies and requirements.
+introduction: Addresses the organization capability to ensure employees have the knowledge and skills necessary to perform their roles and comply with organisational policies and requirements.
 ---
 
 {{ page.introduction }}

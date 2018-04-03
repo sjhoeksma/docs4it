@@ -1,13 +1,11 @@
 ---
-
-title:  Cloud Change and Release Management
+title:  Change and Release Management
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 - process
-introduction: Encompasses the organization’s capability to manage, plan, and schedule changes to the IT environment.
+introduction: Encompasses the organisation capability to manage, plan, and schedule changes to the IT environment.
 ---
 
 {{ page.introduction }}

@@ -1,9 +1,9 @@
 ---
 title: Introduction
 overviewmap:
- - {name: 'Strategy' , coord: '4,4,268,50', href: '/framework/01-02-strategy' }
- - {name: 'Delivery' , coord: '4,51,268,430', href: '/framework/03-01-portfolio' }
- - {name: 'Governance' , coord: '4,431,268,480', href: '/framework/' }
+ - {name: 'Strategy' , coord: '0,4,268,40', href: '/framework/01-02-strategy' }
+ - {name: 'Delivery' , coord: '0,41,268,430', href: '/framework/03-01-portfolio' }
+ - {name: 'Governance' , coord: '0,431,268,480', href: '/framework/' }
 mainpage: false 
 nobackmenu: true
 references: 

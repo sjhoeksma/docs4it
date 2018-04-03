@@ -1,13 +1,12 @@
 ---
-
-title:  Cloud Business Performance Management
+title:  Business Performance Management
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
 - cloud
 - monitoring
-introduction: Addresses the organization’s capability to measure and optimize processes in support of your organization’s goals.
+introduction: Addresses the organisation capability to measure and optimize processes in support of your organisation goals.
 ---
 
 {{ page.introduction }}

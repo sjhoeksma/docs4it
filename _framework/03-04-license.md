@@ -1,23 +1,21 @@
 ---
-
-title:  Cloud License Management
+title:  License Management
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 - process
-introduction: Defines your organization’s capability to procure,distribute, and manage the licenses needed for IT systems, services, and software. 
+introduction: Defines your organisation capability to procure,distribute, and manage the licenses needed for IT systems, services, and software. 
 references:
  - { title: 'Software licensing in the cloud', url: 'https://www.computerworld.com/article/2496855/cloud-computing/software-licensing-in-the-cloud.html' }
 ---
 
 {{ page.introduction }}
-The cloud consumption model requires that teams develop new skills
+The serve consumption model requires that teams develop new skills
 for procurement and license management and new processes for evaluating
 license needs.
 
-The cloud delivery models that present the most software-licensing challenges are infrastructure as a service (IaaS) and platform as a service (PaaS). Software as a service (SaaS) is less likely to cause problems because, as the name suggests, the software is part of the cloud provider's services. With IaaS and PaaS, though, the customer has shared control over what is run in the cloud environment, including third-party software. In the case of IaaS, the customer does not manage or control the underlying cloud infrastructure but may have control over operating systems and deployed applications. With PaaS, while the customer typically doesn't have control over the operating system, it may have control over the deployed applications.
+The service delivery models that present the most software-licensing challenges are infrastructure as a service (IaaS) and platform as a service (PaaS). Software as a service (SaaS) is less likely to cause problems because, as the name suggests, the software is part of the cloud provider's services. With IaaS and PaaS, though, the customer has shared control over what is run in the cloud environment, including third-party software. In the case of IaaS, the customer does not manage or control the underlying cloud infrastructure but may have control over operating systems and deployed applications. With PaaS, while the customer typically doesn't have control over the operating system, it may have control over the deployed applications.
 
 Where the complexity comes in is that software manufacturers are all over the map in how they address cloud use in their software licenses. Some base their licensing on the number of users, and those users in turn may be named or concurrent. Others charge per processor or core that the software runs on. Still others look at actual usage, a metric that is distinct from number of users. The one thing that these various licensing models have in common is that they are attempts to maximize revenue, and naturally, software makers view the use of their products in the cloud as an expansion of licensing rights that represents an opportunity for increased revenue.
 

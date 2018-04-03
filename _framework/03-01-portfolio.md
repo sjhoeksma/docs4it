@@ -1,14 +1,12 @@
 ---
-
 title:  Portfolio Management
 date:   2018-01-01 08:30:56
 minutes: 15
 category: Strategy
 tags:
 - strategy
-- cloud
 - process
-introduction: Focuses on your organizations capability to manage and prioritize IT investments, programs, and projects in alignment with your organizations business goals.
+introduction: Focuses on your organisation capability to manage and prioritize IT investments, programs, and projects in alignment with your organisations business goals.
 references:
  - { url: 'https://www.itforbusiness.org/book/project-and-development-management/overview/' , title: 'IT for Business'}
 ---

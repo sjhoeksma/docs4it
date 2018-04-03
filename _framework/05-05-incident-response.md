@@ -1,13 +1,12 @@
 ---
-
-title:  Cloud Incicent Response
+title:  Incident Response
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
 - cloud
 - process
-introduction: Focuses on the organization’s capability to respond, manage, reduce harm, and restore operations during and after a security incident.
+introduction: Focuses on the organisation capability to respond, manage, reduce harm, and restore operations during and after a security incident.
 ---
 
 {{ page.introduction }}

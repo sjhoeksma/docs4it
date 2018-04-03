@@ -1,13 +1,11 @@
 ---
-
-title:  Cloud Reporting & Analitycs
+title:  Reporting & Analitycs
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 - monitoring
-introduction: Addresses the organization’s capability to ensure compliance with your organization’s reporting policies and to ensure ongoing analysis and reporting of performance against key KPIs such as service-level agreements (SLAs) and service-level expectations (SLEs).
+introduction: Addresses the organisation capability to ensure compliance with your organisation reporting policies and to ensure ongoing analysis and reporting of performance against key KPIs such as service-level agreements (SLAs) and service-level expectations (SLEs).
 ---
 
 {{ page.introduction }}

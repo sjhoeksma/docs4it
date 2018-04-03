@@ -1,13 +1,11 @@
 ---
-
-title:  Cloud Application Monitoring
+title:  Application Monitoring
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
 - strategy
-- cloud
 - monitoring
-introduction: Addresses the organization’s capability to ensure application performance meets its defined requirements.
+introduction: Addresses the organisation capability to ensure application performance meets its defined requirements.
 ---
 
 {{ page.introduction }}
