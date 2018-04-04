@@ -1,9 +1,9 @@
 ---
 title: Introduction
 overviewmap:
- - {name: 'Strategy' , coord: '0,4,268,40', href: '/framework/01-02-strategy' }
- - {name: 'Delivery' , coord: '0,41,268,430', href: '/framework/03-01-portfolio' }
- - {name: 'Governance' , coord: '0,431,268,480', href: '/framework/' }
+ - {name: 'Strategy' , coord: '28,14,262,59', href: '/framework/01-02-strategy' }
+ - {name: 'Delivery' , coord: '28,59,262,390', href: '/framework/03-01-portfolio' }
+ - {name: 'Governance' , coord: '28,390,262,420', href: '/framework/' }
 mainpage: false 
 nobackmenu: true
 references: 
@@ -28,4 +28,4 @@ The site has been made interactive, resulting that most image like the overview 
 The links below give you access to the most common used items
 {% include article-grid.html articles=site.data.topics %}
 
-**Final Thanks** to all everybody how has contributed to this site by editing the content through [GitHub](https://github.com/sjhoeksma/sjhoeksma.github.io). For all people and companies which are making create content available trough sites and documents, links to these sources can always be found on the bottom of a page. 
+**Final Thanks** to all everybody how has contributed to this site by editing the content through [GitHub](https://github.com/sjhoeksma/docs4.it). For all people and companies which are making create content available trough sites and documents, links to these sources can always be found on the bottom of a page. 

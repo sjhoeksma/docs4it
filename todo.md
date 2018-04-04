@@ -21,6 +21,7 @@
 * Add Risk assessment Excel
 * Add ISO Excel
 * Add plan for BCM
+* Add Service Cost Model 
 
 
 # Links to check

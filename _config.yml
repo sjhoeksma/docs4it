@@ -22,7 +22,7 @@ showProgressBar: 1 #Time in minutes when progressbar shoud be shown
 #  index_name:     'doc4it'
 #  search_only_api_key: '6ab3a2fe1b9e6a97c87f7e8824c7f3a4'
 
-# google_analytics: "UA-XXXXXXXX-X" # Add you google_analytics id if neede
+google_analytics: "UA-116913316-1" # Add you google_analytics id if neede
 
 #Default values
 defaults:
@@ -66,6 +66,7 @@ collections:
   - mof
   - roles
   - kpi
+  - services
   
  
 collections:
@@ -87,7 +88,10 @@ collections:
   kpi:
     output: true
     permalink: /:collection/:name  
-    
+  services:
+    output: true
+    permalink: /:collection/:name  
+      
     
   
   
