@@ -15,6 +15,7 @@
 * New Main page using Simple picture, Add Customer demand to this picture [Red customer]
 * Fix Scroll Top of Progressbar.js
 * Create as small javascript that will update KPI based on json file
+* Add 2 tabs on framework
 
 # Documentation additions
 * Add a single page explaining the whole concept, linking to documents
@@ -22,6 +23,7 @@
 * Add ISO Excel
 * Add plan for BCM
 * Add Service Cost Model 
+* references.md contains all references used on site
 
 
 # Links to check

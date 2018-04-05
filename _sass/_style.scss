@@ -92,7 +92,19 @@ audio:not([controls]) {
   height: 0; }
 
 img {
-  border-style: none; }
+  border-style: none;
+}
+
+.max-rem50 {max-width: 50rem !important;}
+.max-rem40 {max-width: 40rem !important;}
+.max-rem30 {max-width: 30rem !important;}
+.max-rem20 {max-width: 20rem !important;}
+.max-rem10 {max-width: 10rem !important;}
+.max-hrem50 {max-height: 50rem !important;}
+.max-hrem40 {max-height: 40rem !important;}
+.max-hrem30 {max-height: 30rem !important;}
+.max-hrem20 {max-height: 20rem !important;}
+.max-hrem10 {max-height: 10rem !important;}
 
 svg:not(:root) {
   overflow: hidden; }
