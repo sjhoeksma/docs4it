@@ -8,6 +8,7 @@ introduction: IT services provide efficiencies that reduce the need to maintain 
 references:
  - { url: 'https://machine2twomachine.wordpress.com/2011/08/04/hello-world/', title: 'What is Cloud Service Broker' }
  - { url: 'https://www.itforbusiness.org' , title: 'IT for Business'}
+ - { url: 'https://www2.deloitte.com/nl/nl/pages/technology/articles/nine-big-shifts-impacting-technology-operating-models.html' , title: 'Nine Big Shifts'}
 ---
 
 {{ page.introduction }}
@@ -16,12 +17,21 @@ references:
 The business has increasing requirements on IT, to be faster and flexible when delivering solutions which needs to be 100% available and supported 7x24x365. There is a need for utility based cost model with full transparency and cost insight up-front. IT should be able to support them with Technology advice and implementation support. Predefined "checked-boxed" self-service approach is expected for standard services like: Security, Data & Service Integration, Technology Preference, Certification demands and Operations as a Service. 
 
 
-<img src='/assets/framework/strategy.png'>The strategy is to deliver a clear and concise agile process for IT services supported by Multi Vendor Cloud Technology. The experience of consuming cloud services for the business will be identical / seamless through the usage of a predefined check-boxed Cloud Portal. By working together as one agile team we will deliver business value by shortening development time, increasing productivity and increasing capacity. Determined for 100% availability, reliability and secured by design increasing our effectiveness in delivering cloud services to our partners and practitioners.
+<img src='/assets/framework/strategy.png' class='max-rem50'>
 
+The strategy is to deliver a clear and concise agile process for IT services supported by Multi Vendor Cloud Technology. The experience of consuming cloud services for the business will be identical / seamless through the usage of a predefined check-boxed Cloud Portal. By working together as one agile team we will deliver business value by shortening development time, increasing productivity and increasing capacity. Determined for 100% availability, reliability and secured by design increasing our effectiveness in delivering cloud services to our partners and practitioners.
+
+
+## Agility and Speed
+
+![BigShift](/assets/framework/bigshift.png){: .max-rem50}
+
+A major shift within IT is the demand for Agility and Speed which is stimulated with cloud services becoming general available by credit card.
 
 ## IT as Cloud Provider and Broker
 
-![cloudprovider](/assets/framework/cloudprovider.png "IT as CloudProvider")
+![cloudprovider](/assets/framework/cloudprovider.png "IT as CloudProvider"){: .max-rem60}
+
 ### Cloud Consumer
 The cloud consumer is the ultimate stakeholder that the cloud computing service is created to support. A cloud consumer represents a person or organization that maintains a business relationship with, and uses the service from, a cloud provider. A cloud consumer browses the service catalog from a cloud provider, requests the appropriate service, sets up service contracts with the cloud provider, and uses the service. The cloud consumer may be billed for the service provisioned, and needs to arrange payments accordingly.
 
