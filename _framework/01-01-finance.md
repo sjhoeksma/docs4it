@@ -26,7 +26,7 @@ It can be difficult to calculate the cost of a service. In the picture shows a m
 * Absorbed Indirect costs are those incurred on behalf of all or a number of services. These have to be apportioned to all or the number of services in a fair manner.
 * Un-absorbed Indirect costs cannot be apportioned to a set of services and have to be recovered from all services in as fair away as is possible
 
-![Service Cost Model](/assets/framework/servicecost.png){: .max-rem50}
+![Service Cost Model](/assets/framework/servicecost.png)
 
 ## Cost Elements for Agile Teams
 When using cloud you probably will introduce agile teams. The advantage of Agile teams is that there cost are predictable. ![Agile Cost Elements](/assets/framework/agilecostelements.png){: .max-rem40}

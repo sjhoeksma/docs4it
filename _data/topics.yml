@@ -1,10 +1,10 @@
-- title: Governance
+- title: IT Governance
   category: Governance
   image: '/assets/framework/framework.png'
   url:  '/framework/'
   introduction: Information about a usefull governance framework for IT. We use this framework to give guidance on how IT can be implemented within your organisation.
   
-- title:  Digital Transformation
+- title:  IT Strategy
   category: Strategy
   image: '/assets/framework/strategy.png'
   url:  '/framework/01-02-strategy'
@@ -15,18 +15,18 @@
   image: '/assets/principles/principles.png'
   url:  '/principles/'
   introduction: We have defined some principles which may be handy.   
+    
+- title:  KPI's
+  category: KPI
+  image: '/assets/kpi/kpi.jpg'
+  url:  '/kpi/'
+  introduction: A simply way to show you kpi in a single dashboard
   
 - title: Skills & Roles
   category: skills
   image: '/assets/skills/Roles-Intro.png'
   url:  '/roles'
   introduction: You needed to have to right resources with the right skill set.  
-   
-- title:  KPI's
-  category: KPI
-  image: '/assets/kpi/kpi.jpg'
-  url:  '/kpi/'
-  introduction: A simply way to show you kpi in a single dashboard
   
 - title:  IT Framework
   category: Strategy

@@ -1,15 +1,15 @@
 # Setup
-name:         docs4IT
-menuname:     DOCS<br>4 IT
-creator:      Sierk Hoeksma
-creator_url:  https://sjhoeksma.github.com 
-about_img:  /img/doc4it.png
-logo:  /img/icons/apple-touch-icon-57x57.png
-title:        docs4IT
-description:  A collections of documents which can be handy for ITHow to do Cloud
-email: 	      info@docs4.it
+name:         "docs4IT"
+menuname:     "DOCS<br>4 IT"
+creator:      "Sierk Hoeksma"
+creator_url:  "https://sjhoeksma.github.com" 
+about_img:  "/img/doc4it.png"
+logo:  "/img/icons/apple-touch-icon-57x57.png"
+title:        "docs4IT"
+description:  "A collections of documents which can be handy for ITHow to do Cloud"
+email: 	      "info@docs4.it"
 locale:       "en"
-timezone:     Europe/Amsterdam
+timezone:     "Europe/Amsterdam"
 baseurl:      ""
 url: 					"https://sjhoeksma.github.io" # the base hostname & protocol for your site
 repository:   "http://github.com/sjhoeksma/sjhoeksma.github.io" 
@@ -53,6 +53,8 @@ links:
     url: /about/
   - title: Contact
     url: /contact/
+  - title: References
+    url: /references/
 
 # Compress the stylesheets		
 sass:

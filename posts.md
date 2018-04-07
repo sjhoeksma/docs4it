@@ -1,8 +1,8 @@
 ---
-mainpage: true
+
 ---
 
-<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+<main class="home" id="post" >
    <div class="">
     {% if site.usenavigation %}
 		  {% include navigation.html %}

@@ -1,0 +1,26 @@
+{% assign pg=include.page | default: page %}
+{% for ref in pg.references %}
+  {% if include.output==false %}
+    {% assign refs = refs | push: ref %}
+  {% else %}
+  <a class="feed" href="{{ ref.url }}" title="Reference">
+    <svg class="love"><use xlink:href="#icon-heart"></use></svg>
+    {{ ref.title }}
+  </a>
+  {% endif %}
+{% endfor %}
+  
+{% if pg.datareferences %}
+     {% for post in site.data[pg.datareferences] %}
+      {% for ref in post.references %}
+       {% if include.output==false %}
+        {% assign refs = refs | push: ref %}
+      {% else %}
+        <a class="feed" href="{{ ref.url }}" title="Reference">
+          <svg class="love"><use xlink:href="#icon-heart"></use></svg>
+          {{ ref.title }}
+        </a>
+      {% endif %}
+      {% endfor %}
+    {% endfor %}
+{% endif %}

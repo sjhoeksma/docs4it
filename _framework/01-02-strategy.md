@@ -28,6 +28,17 @@ The strategy is to deliver a clear and concise agile process for IT services sup
 
 A major shift within IT is the demand for Agility and Speed which is stimulated with cloud services becoming general available by credit card.
 
+#### Strategy Contributions
+* Increase **Agility and Speed** by setting up a Agile team 
+* Support the shift towards **Cloud and Automation**
+
+
+#### Pre-requisites to make IT successful
+* Accelerate **Workforce transition** by adding jobs with new skills
+* Increase **Digital knowledge / DNA** by providing training and adjusting the organisational IT culture and environment
+* Adjust **funding and governance** by transforming to digital leadership/governance, culture of innovation and funding model adjustments
+
+
 ## IT as Cloud Provider and Broker
 
 ![cloudprovider](/assets/framework/cloudprovider.png "IT as CloudProvider"){: .max-rem60}

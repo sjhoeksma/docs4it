@@ -1,13 +1,13 @@
 ---
 permalink: /framework/
-title:  IT Governance Framework
+title:  IT Framework
 date:   2018-01-01 08:30:56
 category: Strategy
 image: '/assets/framework/framework.png'
 imagemap:
  - {name: 'Business' , coord: '4,5,232,79', href: '/framework/01-00-business' }
  - {name: 'People' , coord: '4,171,232,242', href: '/framework/02-00-people' }
- - {name: 'Governance' , coord: '4,329,232,400', href: '/framework/03-00-governance' }
+ - {name: 'Demand' , coord: '4,329,232,400', href: '/framework/03-00-demand' }
  - {name: 'Platform' , coord: '4,476,232,546', href: '/framework/04-00-platform' }
  - {name: 'Security' , coord: '4,622,232,693', href: '/framework/05-00-security' }
  - {name: 'Operations' , coord: '4,776,232,847', href: '/framework/06-00-operations' }
@@ -45,7 +45,7 @@ imagemap:
 tags:
 - strategy
 - cloud
-introduction: The IT Governance Framework organizes guidance into six areas of focus, which span the entire organization. We describe these areas of focus as Perspectives. Perspectives each encompass distinct responsibilities owned or managed by functionally related stakeholders. 
+introduction: The IT Framework organizes guidance into six areas of focus, which span the entire organization. We describe these areas of focus as Perspectives. Perspectives each encompass distinct responsibilities owned or managed by functionally related stakeholders. 
 mermaid: false
 references: 
 - {title: 'AWS Clould Adoption Framework', url: 'https://d0.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf'}
