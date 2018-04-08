@@ -1,7 +1,7 @@
 ---
 layout: default
 hidetime: true
-title: Framework principles
+title:  Framework principles
 permalink: /principles/
 description: This article was developed with the purpose of proposing certain principles that must drive an enterprise architecture initiative.
 category: Stratergy
