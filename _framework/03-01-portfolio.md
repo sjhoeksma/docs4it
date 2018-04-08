@@ -8,7 +8,7 @@ tags:
 - process
 introduction: Focuses on your organisation capability to manage and prioritize IT investments, programs, and projects in alignment with your organisations business goals.
 references:
- - { url: 'https://www.itforbusiness.org/book/project-and-development-management/overview/' , title: 'IT for Business'}
+ - { url: 'https://www.itforbusiness.org/book/project-and-development-management/overview/' , title: 'Project Management'}
 ---
 
 {{ page.introduction }}

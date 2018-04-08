@@ -1,0 +1,17 @@
+
+<div class="box-item {{include.color}}-box hover" >
+  <h3 class="post-title" >{{include.title}}</h3>
+  <div class="kpi {{ include.class }}"><ul class="kpis grid">
+  {% assign pages = site.principles | sort: 'url' %}
+  {% for page in pages %}
+     {% include filename.html path=page.path %}
+     {% if filelevel == {{include.level | default:'01'}} %}
+      <li class="kpi-item max-rem10 {{ include.class }}" onclick="location.href='{{include.page.url | default: page.url}}'"> 
+        <span class="kpi-name">
+          {{ include.page.title | default: page.title}}
+        </span>
+      </li>
+     {% endif %}
+  {% endfor %}
+  </ul></div>
+</div>

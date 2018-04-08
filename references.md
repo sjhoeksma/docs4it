@@ -13,7 +13,7 @@ Below you find a list of references to original material used within this site.
 {% for post in site.mof %}{% include reference.html page=post output=false %}{% endfor %}
 {% for post in site.data.roles %}{% include reference.html page=post output=false %}{% endfor %}
 {% for post in site.principles %}{% include reference.html page=post output=false %}{% endfor %}
-{% assign refs=refs | sort:"title" %}
+{% assign refs=refs | sort: "title" | uniq %}
 <footer><p>     
 {% for ref in refs %}
 <a class="feed" href="{{ ref.url }}" title="Reference">

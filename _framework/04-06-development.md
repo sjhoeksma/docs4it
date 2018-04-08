@@ -10,6 +10,7 @@ tags:
 introduction: Defines the organization’s capability to customizeor develop applications to support your organization’s business goals.
 references: 
 - {title: 'What is DevOps', url: 'https://www.visualstudio.com/learn/what-is-devops/'}
+- {title: 'Large Agile Teams', url: 'https://www.visualstudio.com/learn/scale-agile-large-teams/'}
 ---
 
 {{ page.introduction }}

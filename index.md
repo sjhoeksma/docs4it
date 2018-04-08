@@ -7,7 +7,7 @@ overviewmap:
 mainpage: false 
 nobackmenu: true
 references: 
-#- {title: 'IT as a Service', url: 'https://www.emc.com/collateral/software/white-papers/h10801-stepstoitaas-wp.pdf'}
+ - {title: 'docs4IT PowerPoint', url: '/support-material/docs4it.pptx'}
 ---
 
 <div id="textgrid" class="row flex-grid">

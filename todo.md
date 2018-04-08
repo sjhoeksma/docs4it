@@ -15,16 +15,18 @@
 * New Main page using Simple picture, Add Customer demand to this picture [Red customer]
 * Fix Scroll Top of Progressbar.js
 * Create as small javascript that will update KPI based on json file
-
+* Add Index page References to Reference pages
 
 # Documentation additions
 * Add a single page explaining the whole concept, linking to documents
 * Add plan for BCM
 * Principles in same form as KPI by Framework element and in grid with boxes  
 * MOF to Tips and Tricks
+* Add Requirement section based on idea https://express.selecthub.com/#/groups/2426/subgroups
 
 
 # Links to check
+* http://www.isoready.com/our-process-starts-with-your-process/
 * http://blog.lionbridge.com/enterprise-crowdsourcing/2013/07/22/managed-crowds-help-deliver-on-promise-of-business-crowdsourcing/
 * http://www.opengroup.org/it4it/about
 * https://www.consultancy.nl/nieuws/7178/atos-liquid-it-belangrijkste-megatrend-voor-cxos
