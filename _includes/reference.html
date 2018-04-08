@@ -7,6 +7,7 @@
     <svg class="love"><use xlink:href="#icon-heart"></use></svg>
     {{ ref.title }}
   </a>
+  {%if include.break==true %}<br/>{% endif %}
   {% endif %}
 {% endfor %}
   
@@ -19,7 +20,8 @@
         <a class="feed" href="{{ ref.url }}" title="Reference">
           <svg class="love"><use xlink:href="#icon-heart"></use></svg>
           {{ ref.title }}
-        </a>
+        </a>{
+        {%if include.break==true %}<br/>{% endif %}
       {% endif %}
       {% endfor %}
     {% endfor %}

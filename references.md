@@ -19,6 +19,6 @@ Below you find a list of references to original material used within this site.
 <a class="feed" href="{{ ref.url }}" title="Reference">
   <svg class="love"><use xlink:href="#icon-heart"></use></svg>
   {{ ref.title }}
-</a>
+</a><br/>
 {% endfor %}
 </p></footer>

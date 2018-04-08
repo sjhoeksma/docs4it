@@ -1,5 +1,5 @@
 ---
-title:  Demand Management
+title:  Service Demand
 date:   2018-01-01 08:30:56
 category: Strategy
 tags:
@@ -13,21 +13,21 @@ introduction: Provides guidance to stakeholders who support business processes w
 The Governance Perspective focuses on the skills and processes that are needed to align IT strategy and goals with your organisation business strategy and goals, to ensure your organization maximizes the business value of its IT investment and minimizes the business risks.
 This Perspective includes Program Management and Project Management capabilities that support governance processes for service adoption and ongoing operations. 
 
-## Overall IT Process
-The overall delivery process can be divided into 4 clear steps; 
-* **In Funnel**: ensure that the demand of the business has an owner, is clearly defined, prioritized and approved
-* **In Pipeline**: creates the services defined by the business, according to delivery method 
-* **In Production**: ensures that the services are operated within the agreed service level
-* **Retired**: ensures the correct disposal of the services which are no longer required.
+## Service Life Cycle
+The overall service life cycle can be divided into 4 clear steps; 
+* **Demand**: ensure that the service requests of the business have an owner, are clearly defined, prioritized and approved
+* **Deliver**: creates the services defined by the business, according to delivery method 
+* **Operate**: ensures that the services are operated within the agreed service level
+* **Retire**: ensures the correct disposal of the services which are no longer required.
 
 ![portfolio](/assets/framework/portfolio.png)
 
-### In Funnel
+### Service Demand
 ![portfolio](/assets/framework/infunnel.png)
 
 ![portfolio](/assets/framework/riskassesment.png)
 
-### In Pipeline
+### Service Delivery
 ![portfolio](/assets/framework/inpipeline-waterfall.png)
 
 ![portfolio](/assets/framework/inpipeline-agile.png)
@@ -36,8 +36,8 @@ The overall delivery process can be divided into 4 clear steps;
 
 ![portfolio](/assets/framework/certify.png)
 
-### In Production
+### Service Operation
 ![portfolio](/assets/framework/inproduction.png)
 
-### Retire
+### Service Retirement
 ![portfolio](/assets/framework/retire.png)
