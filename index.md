@@ -7,7 +7,7 @@ overviewmap:
 mainpage: false 
 nobackmenu: true
 references: 
- - {title: 'docs4IT PowerPoint', url: '/support-material/docs4it.pptx'}
+ - {title: 'docs4IT PowerPoint', url: '/support-material/docs4IT.pptx'}
 ---
 
 <div id="textgrid" class="row flex-grid">

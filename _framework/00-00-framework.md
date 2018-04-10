@@ -1,6 +1,6 @@
 ---
 permalink: /framework/
-title:  IT Framework
+title:  Governance
 date:   2018-01-01 08:30:56
 category: Strategy
 image: '/assets/framework/framework.png'
@@ -45,7 +45,7 @@ imagemap:
 tags:
 - strategy
 - cloud
-introduction: The IT Framework organizes guidance into six areas of focus, which span the entire organization. We describe these areas of focus as Perspectives. Perspectives each encompass distinct responsibilities owned or managed by functionally related stakeholders. 
+introduction: The framework above organizes governance into six areas of focus, which span the entire organization. We describe these areas of focus as Perspectives. Perspectives each encompass distinct responsibilities owned or managed by functionally related stakeholders. 
 mermaid: false
 references: 
 - {title: 'AWS Clould Adoption Framework', url: 'https://d0.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf'}

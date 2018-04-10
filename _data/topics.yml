@@ -1,10 +1,10 @@
-- title: IT Governance
+- title: Governance
   category: Governance
   image: '/assets/framework/framework.png'
   url:  '/framework/'
   introduction: Information about a usefull governance framework for IT. We use this framework to give guidance on how IT can be implemented within your organisation.
   
-- title:  IT Strategy
+- title:  Strategy
   category: Strategy
   image: '/assets/framework/strategy.png'
   url:  '/framework/01-02-strategy'
