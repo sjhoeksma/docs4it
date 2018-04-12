@@ -1,5 +1,5 @@
 ---
-title:  '% of Spend on Customer-Facing'
+title:  'Spend on Customer-Facing'
 article: kpi
 category: KPI
 tags:
@@ -7,7 +7,7 @@ tags:
 - KPI
 actual: 17000
 target: 12500
-unit: "%"
+unit: "€"
 ---
 
 **This metric answers the questions**:

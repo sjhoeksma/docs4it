@@ -1,11 +1,11 @@
 ---
-title:  '% of IT Investment on Run-Transform'
+title:  'IT Investment on Run vs Grow'
 article: kpi
 category: KPI
 tags:
 - strategy
 - KPI
-unit: "%"
+unit: "€"
 ---
 
 **This metric answers the questions**:

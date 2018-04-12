@@ -1,5 +1,5 @@
 ---
-title: "% of Projects On Time, Budget Spec"
+title: "Projects On Time, Budget Spec"
 article: kpi
 category: KPI
 tags:
@@ -8,7 +8,7 @@ tags:
 goal: Dummy
 actual: 10000
 target: 12500
-unit: "%"
+unit: "Count"
 ---
 
 **This metric answers the question**:

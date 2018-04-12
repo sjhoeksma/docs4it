@@ -1,5 +1,5 @@
 ---
-title:  '% Services Meeting SLA' 
+title:  'Services Meeting SLA' 
 article: kpi
 category: KPI
 tags:
@@ -7,7 +7,7 @@ tags:
 - KPI
 actual: 1000
 target: 12500
-unit: "%"
+unit: "count"
 ---
 
 **This metric answers the question**:

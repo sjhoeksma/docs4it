@@ -22,7 +22,7 @@
   url:  '/kpi/'
   introduction: A simply way to show you kpi in a single dashboard
   
-- title: Skills & Roles
+- title: Roles & Skills
   category: skills
   image: '/assets/skills/Roles-Intro.png'
   url:  '/roles'
