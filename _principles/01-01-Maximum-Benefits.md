@@ -11,5 +11,5 @@ implications:
  - Most times, quantitative assessments are simpler based on cost perspective but more complex for risks and even more intricate for benefits. The quantitative assessment must always be conducted whenever possible and sufficient.
  - A qualitative assessment of one or two perspectives is sufficient when a quantitative assessment of other perspectives (for example, cost) is properly conducted and already leads to a decision.
  - Operating risks must be quantified whenever possible.
- - IT infrastructure must also be optimized based on business requirements and technological capacity to generate lower costs and risks, thus benefiting the focus of the company.
+ - IT infrastructure must also be optimized based on business requirements and technological capacity to generate lower costs and risks, thus benefiting the focus of the company
 ---   
